@@ -10,7 +10,7 @@
         <a href="debat.php"><li class="none">Debat</li></a>
         <a href="kontakt.php"><li class="none">Kontakt Os</li></a>
         <a href="#"><li class="none">Skift kommune</li></a>
-        <a href="#"><li class="open"><span onclick="openNav()">&times;</span></li></a>
+        <a href="#"><li class="open"><span onclick="openNav()">&#9776;</span></li></a>
       </ul>
     </div>
   </nav>

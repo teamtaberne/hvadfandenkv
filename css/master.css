@@ -261,7 +261,8 @@ body {
   height: 150px;
   background-color: #009688; }
   .navigation .navlogo {
-    width: 45%; }
+    width: 45%;
+    z-index: 1; }
   .navigation .navbar {
     display: inline-flex;
     font-size: 1.3em;
@@ -271,6 +272,8 @@ body {
     float: right; }
     .navigation .navbar a {
       text-decoration: none; }
+    .navigation .navbar .open {
+      display: none; }
     .navigation .navbar li {
       color: white;
       margin: 10px;
@@ -286,7 +289,7 @@ body {
   z-index: 1;
   background: #009688;
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 30px;
   transition: 0.3s; }
   .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -314,7 +317,7 @@ footer {
     height: 100px;
     background-color: #009688; }
     .navigation .navlogo {
-      width: 30%; }
+      width: 50%; }
     .navigation .navbar {
       font-size: 3em;
       margin: 0;
