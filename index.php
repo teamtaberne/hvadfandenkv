@@ -1,5 +1,5 @@
 
-<?php include "include/analytics.php"; ?>
+<?php include 'include/analytics.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -8,14 +8,14 @@
     <title>Seneste Nyt</title>
   </head>
 <body>
-<?php include "include/nav.php" ?>
+<?php include 'include/nav.php' ?>
 
 
 
 
 
 
-
-  <?php include "include/jquary.php"; ?>
+  <?php include 'include/footer.php'; ?>
+  <?php include 'include/jquary.php'; ?>
   </body>
 </html>

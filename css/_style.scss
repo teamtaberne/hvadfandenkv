@@ -30,13 +30,46 @@ background-color: $maincolor;
   margin: 10px;
   padding: 10px;
   transition: color 0.4s ease-in;
-  transition: font-size 0.2s ease-in;
     }
     li:hover {
       color: $secondcolor;
-      font-size: 1.1em;
     }
 
   }
 }
+// SIDEMOBILENAV
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  background: $maincolor;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.3s;
+ a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 1em;
+   color: white;
+   display: block;
+ }
+ .closebtn {
+   position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+ }
+}
+
 // END OF NAVIGATION
+// FOOTER START
+footer{
+  position: absolute; // Remove if content can push footer
+  bottom: 0; // Remove if content can push footer
+  width: 100%;
+  height: 100px;
+  background-color: $maincolor;
+}
+// END OF FOOTER
