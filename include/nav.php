@@ -10,12 +10,10 @@
         <a href="debat.php"><li class="none">Debat</li></a>
         <a href="kontakt.php"><li class="none">Kontakt Os</li></a>
         <a href="#"><li class="none">Skift kommune</li></a>
-        <a href="#"><li class="open"><span onclick="openNav()">&#9776;</span></li></a>
       </ul>
     </div>
   </nav>
 <div class="sidenav" id="sidenav">
-   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="index.php"><li>Seneste nyt</li></a>
   <a href="stalk.php"><li>Stalk din politiker</li></a>
   <a href="event.php"><li>Events</li></a>
@@ -23,11 +21,24 @@
   <a href="kontakt.php"><li>Kontakt Os</li></a>
   <a href="#"><li>Skift kommune</li></a>
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
 <script type="text/javascript">
-function openNav() {
-  document.getElementById("sidenav").style.width = "250px";
-}
-function closeNav() {
-  document.getElementById("sidenav").style.width = "0";
-}
+$(function(){
+    $('#opens').on('click', function(){
+        if( $('#sidenav').is(':visible') ) {
+            $('#sidenav').animate({ 'width': '250px' }, 'fast', function(){
+                $('#sidenav').hide();
+            });
+        }
+        else if( $('#sidenav').is(':hidden') ) {
+            $('#sidenav').show();
+            $('#sidenav').animate({ 'width': '250px' }, 'fast');
+        }
+    });
+});
+
 </script>

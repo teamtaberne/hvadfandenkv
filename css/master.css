@@ -272,8 +272,6 @@ body {
     float: right; }
     .navigation .navbar a {
       text-decoration: none; }
-    .navigation .navbar .open {
-      display: none; }
     .navigation .navbar li {
       color: white;
       margin: 10px;
@@ -284,7 +282,6 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 0%;
   position: fixed;
   z-index: 1;
   background: #009688;
