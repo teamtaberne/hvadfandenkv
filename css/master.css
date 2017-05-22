@@ -374,6 +374,13 @@ footer {
   .kontakthero img {
     margin: 20px 20px 20px 0px;
     width: 80%; }
+  .kontakthero h1 {
+    padding-top: 150px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em; }
 
 @media screen and (max-width: 668px) {
   .navigation {
