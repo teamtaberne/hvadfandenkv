@@ -279,9 +279,12 @@ body {
       transition: color 0.4s ease-in; }
     .navigation .navbar li:hover {
       color: #FF9100; }
+    .navigation .navbar .open {
+      display: none; }
 
 .sidenav {
   height: 100%;
+  width: 0px;
   position: fixed;
   z-index: 1;
   background: #009688;

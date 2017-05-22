@@ -1,5 +1,6 @@
 
 <?php include 'include/analytics.php'; ?>
+<?php require_once 'include/cookie.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -9,11 +10,6 @@
   </head>
 <body>
 <?php include 'include/nav.php' ?>
-
-
-
-
-
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>

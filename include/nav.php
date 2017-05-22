@@ -10,6 +10,7 @@
         <a href="debat.php"><li class="none">Debat</li></a>
         <a href="kontakt.php"><li class="none">Kontakt Os</li></a>
         <a href="#"><li class="none">Skift kommune</li></a>
+        <a href="#"><li id="opens" class="open"><span>&#9776;</span></li></a>
       </ul>
     </div>
   </nav>
@@ -30,15 +31,14 @@
 $(function(){
     $('#opens').on('click', function(){
         if( $('#sidenav').is(':visible') ) {
-            $('#sidenav').animate({ 'width': '250px' }, 'fast', function(){
+            $('#sidenav').animate({ 'width': '0px' }, 'slow', function(){
                 $('#sidenav').hide();
             });
         }
         else if( $('#sidenav').is(':hidden') ) {
             $('#sidenav').show();
-            $('#sidenav').animate({ 'width': '250px' }, 'fast');
+            $('#sidenav').animate({ 'width': '250px' }, 'slow');
         }
     });
 });
-
 </script>
