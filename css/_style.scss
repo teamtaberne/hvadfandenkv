@@ -31,11 +31,13 @@ background-color: $maincolor;
     }
     li:hover {
       color: $secondcolor;
+      border-left: 1px solid $secondcolor;
+      border-right: 1px solid $secondcolor;
     }
   .open {
     display: none;
   }
-  }
+}
 }
 // SIDEMOBILENAV
 .sidenav {
@@ -64,11 +66,77 @@ background-color: $maincolor;
 }
 // END OF NAVIGATION
 // FOOTER START
-footer{
-  position: absolute; // Remove if content can push footer
-  bottom: 0; // Remove if content can push footer
+footer {
   width: 100%;
   height: 100px;
   background-color: $maincolor;
 }
 // END OF FOOTER
+
+// SENESTE NYT / INDEX / SENESTE NYT / INDEX
+
+// SEKTION 1
+.sectionhero_1 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/sheepy2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  img {
+    margin: 20px 20px 20px 0px;
+    width: 80%;
+  }
+  .facts {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: $secondcolor;
+    border-radius: 20px;
+    height: 200px;
+    h1 {
+      margin-top: 20px;
+      color: white;
+      text-align: center;
+      font-size: 2em;
+    }
+    p {
+      text-align: center;
+      font-size: 1.2em;
+      margin-top: 30px;
+      color: white;
+    }
+  }
+  .maaling {
+    margin: 50px;
+    h1 {
+      text-align: center;
+      font-size: 1.1em;
+    }
+    img {
+      margin: 20px 0px 20px 20px;
+    }
+    .meningsmaaling {
+      text-align: justify;
+      label {
+      font-weight: bold;
+      }
+    }
+  }
+}
+// SEKTION 1 SLUT
+// SEKTION 2 BEGYNDER
+.seneste_tekst {
+  color: white;
+  margin: 30px;
+  h1 {
+    font-size: 1.5em;
+  }
+}
+.sektion_2billede {
+  img {
+  margin-top: 200px;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+}
