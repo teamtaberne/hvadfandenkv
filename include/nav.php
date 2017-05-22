@@ -6,7 +6,7 @@
       <ul class="navbar">
         <a href="index.php"><li class="none">Seneste nyt</li></a>
         <a href="stalk.php"><li class="none">Stalk din politiker</li></a>
-        <a href="event.php"><li class="none">Events</li></a>
+        <a href="events.php"><li class="none">Events</li></a>
         <a href="debat.php"><li class="none">Debat</li></a>
         <a href="kontakt.php"><li class="none">Kontakt Os</li></a>
         <a href="#"><li class="none">Skift kommune</li></a>

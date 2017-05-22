@@ -140,3 +140,104 @@ footer {
     font-size: 1.3em;
   }
 }
+// SEKTION 2 SLUT
+// SENESTE NYT / INDEX SLUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// EVENTS // EVENTS //
+.sectionhero_3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/eventbillede.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+$eventimg: 70%;
+.livestream {
+  .live_1 {
+    h1 {
+      color: white;
+      font-size: 2em;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      height: 200px;
+    }
+  }
+  .live_2 {
+
+    font-size: 1.5em;
+    line-height: 50px;
+    margin-top: 90px;
+  }
+  .live_3 {
+    img {
+      width: 100%;
+    }
+  }
+}
+.live_background {
+  background-color: #def0ef;
+  .events_1 {
+    h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+    }
+    img {
+      width: $eventimg;
+    }
+  }
+  .events_2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    img {
+      width: $eventimg;
+    }
+    h2 {
+      font-size: 1.2em;
+      padding: 4px 0px 4px 0px;
+    }
+  }
+}
+// EVENT SLUT //
