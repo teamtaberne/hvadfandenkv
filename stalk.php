@@ -20,7 +20,7 @@
         <a href="venstre.php"><img src="images/pollogos/venstre.jpg" alt="Venstre logo"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/SD.png" alt="Venstre logo"></a>
+        <a href="venstre.php"><img src="images/pollogos/alter.png" alt="Venstre logo"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
         <a href="venstre.php"><img src="images/pollogos/SF.jpg" alt="Venstre logo"></a>

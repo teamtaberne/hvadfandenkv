@@ -393,6 +393,24 @@ footer {
 .pollogos_2 {
   margin-top: 100px; }
 
+.sectionhero_2_venstre {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/venstreblur.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .sectionhero_2_venstre .venstre .icons img {
+    margin-top: 30px;
+    width: 10%; }
+  .sectionhero_2_venstre .venstre h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 150px; }
+  .sectionhero_2_venstre .venstre .markesager h1 {
+    text-align: right;
+    margin-right: 200px; }
+
 .sectionhero_3 {
   width: 100%;
   height: 800px;
