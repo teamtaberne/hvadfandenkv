@@ -22,7 +22,7 @@
 
     <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Send" class="button">
   </form>
 </div>
 

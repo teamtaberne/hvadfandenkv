@@ -254,14 +254,14 @@ table {
     height: 0; } }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 .navigation {
   width: 100%;
   height: 100px;
   background-color: #009688; }
   .navigation .navlogo {
-    width: 45%;
+    width: 30%;
     z-index: 1; }
   .navigation .navbar {
     display: -webkit-inline-flex;
@@ -364,6 +364,94 @@ footer {
 .sektion_2billede h1 {
   font-size: 1.3em; }
 
+.sectionhero_2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/stalkpol.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.search_1 {
+  background-color: #def0ef;
+  text-align: center;
+  height: 20px; }
+  .search_1 input {
+    width: 70%;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 3px;
+    height: 50px;
+    font-size: 1.3em;
+    margin-top: 10px; }
+
+.pollogos .pollogo img {
+  width: 80%;
+  border-radius: 350px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.pollogos_2 {
+  margin-top: 100px; }
+
+.sectionhero_2_venstre {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/venstreblur.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.venstre h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 160px; }
+
+.venstre .markesager h1 {
+  text-align: right;
+  margin-right: 200px; }
+
+.venstre_1 {
+  margin-top: 50px; }
+  .venstre_1 .icons li {
+    margin: 30; }
+  .venstre_1 .icons img {
+    vertical-align: middle;
+    width: 12%; }
+
+.polpic {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/side-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .polpic .photo img {
+    border-radius: 250px;
+    margin-top: 40px;
+    margin-left: 300px; }
+  .polpic .photo h1 {
+    margin-top: 10px;
+    margin-left: 380px;
+    font-size: 1.5em; }
+
+.polpic_2 {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/side-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .polpic_2 .photo_1 img {
+    border-radius: 250px;
+    margin-top: 40px;
+    margin-left: 300px; }
+  .polpic_2 .photo_1 h1 {
+    margin-top: 10px;
+    margin-left: 380px;
+    font-size: 1.5em; }
+
 .sectionhero_3 {
   width: 100%;
   height: 800px;
@@ -424,6 +512,14 @@ footer {
     margin: 0 auto;
     text-align: center;
     font-size: 2em; }
+
+.button {
+  color: #FF9100;
+  background-color: #009688;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 @media screen and (max-width: 668px) {
   .navigation {
