@@ -355,7 +355,9 @@ $eventimg: 70%;
     width: 50%;
     margin: 0 auto 50px auto;
     padding-bottom: 50px;
-    .input {
+}
+
+.input {
       margin: 15px auto;
       width: 100%;
       resize: vertical;
@@ -363,22 +365,22 @@ $eventimg: 70%;
       border-radius: 5px;
       border: 1px solid $maincolor;
     }
-    .button {
-    color: $secondcolor;
-    background-color: $maincolor;
-    border: none;
-    padding: 10px 40px;
-    border-radius: 5px;
-    font-family: $font; 
-    font-size: 16px;
-    cursor: pointer;
-    float: right;
-  }
-  .button:hover {
-    background-color: $hovercolor;
-  }
+    
+.button {
+  color: $secondcolor;
+  background-color: $maincolor;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-family: $font; 
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
 }
 
+.button:hover {
+  background-color: $hovercolor;
+}
 
 textarea {
   height: 150px;
