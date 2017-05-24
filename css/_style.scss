@@ -418,7 +418,75 @@ textarea {
       vertical-align: middle;
     }
   }
-  
+}
+
+.debat {
+  .debatform {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    .input {
+      border: 1px solid #ccc;
+    }
+  }
+  background-color: $backgroundcolor;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+  h1 {
+    width: 70%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+  }
+  .debat-post {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+    .debat-post-content {
+      width: 90%;
+      float: left;
+      line-height: 1.5;
+      h2 {
+        text-align: left;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+      }
+      p {
+        text-align: left;
+        font-size: 1em;
+      }
+    }
+    .debat-post-points {
+      float: right;
+      .debat-post-points-up {
+        padding-bottom: 40px;
+        h3 {
+          float: right;
+        }
+        img {
+          width: 30px;
+          float: left;
+          margin-right: 10px;
+        }
+
+      }
+      .debat-post-points-down {
+        h3 {
+          float: right;
+        }
+        img {
+          width: 30px;
+          margin-right: 10px;
+          float: left;
+        }
+      }
+    }
+  }
 }
 
 // DEBAT SLUT
