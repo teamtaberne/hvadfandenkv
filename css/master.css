@@ -513,12 +513,8 @@ footer {
     text-align: center;
     font-size: 2em; }
 
-.kontaktform {
-  width: 60%;
-  margin: 0 auto;
-  display: inline-block;
-  text-align: center;
-  padding-bottom: 50px; }
+.wrapper {
+  padding-bottom: 70px; }
 
 .button {
   color: #FF9100;
