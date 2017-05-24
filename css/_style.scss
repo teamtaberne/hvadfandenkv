@@ -351,34 +351,34 @@ $eventimg: 70%;
   }
 
 // kontakt formular
-.wrapper {
-  padding-bottom: 70px;
-}
-
-.button {
-  color: $secondcolor;
-  background-color: $maincolor;
-  border: none;
-  padding: 10px 40px;
-  border-radius: 5px;
-  font-family: $font; 
-  font-size: 16px;
-  cursor: pointer;
-  float: right;
-}
-
-.button:hover {
+.kontaktform {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    padding-bottom: 50px;
+    .input {
+      margin: 15px auto;
+      width: 100%;
+      resize: vertical;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid $maincolor;
+    }
+    .button {
+    color: $secondcolor;
+    background-color: $maincolor;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: $font; 
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+  }
+  .button:hover {
     background-color: $hovercolor;
+  }
 }
 
-.input {
-  margin: 15px auto;
-  width: 100%;
-  resize: vertical;
-  padding: 15px;
-  border-radius: 5px;
-  border: 1px solid $maincolor;
-}
 
 textarea {
   height: 150px;
@@ -440,6 +440,7 @@ textarea {
     font-size: 2em;
   }
   .debat-post {
+    box-sizing: border-box;
     background-color: white;
     border: 1px solid #ccc;
     margin: 30px auto;

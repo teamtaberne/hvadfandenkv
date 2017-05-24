@@ -264,6 +264,8 @@ body {
     width: 30%;
     z-index: 1; }
   .navigation .navbar {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: 1.3em;
     line-height: 30px;
@@ -506,30 +508,29 @@ footer {
     text-align: center;
     font-size: 2em; }
 
-.wrapper {
-  padding-bottom: 70px; }
-
-.button {
-  color: #FF9100;
-  background-color: #009688;
-  border: none;
-  padding: 10px 40px;
-  border-radius: 5px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  cursor: pointer;
-  float: right; }
-
-.button:hover {
-  background-color: #00695C; }
-
-.input {
-  margin: 15px auto;
-  width: 100%;
-  resize: vertical;
-  padding: 15px;
-  border-radius: 5px;
-  border: 1px solid #009688; }
+.kontaktform {
+  width: 50%;
+  margin: 0 auto 50px auto;
+  padding-bottom: 50px; }
+  .kontaktform .input {
+    margin: 15px auto;
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #009688; }
+  .kontaktform .button {
+    color: #FF9100;
+    background-color: #009688;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    float: right; }
+  .kontaktform .button:hover {
+    background-color: #00695C; }
 
 textarea {
   height: 150px; }
@@ -576,6 +577,7 @@ textarea {
     text-align: center;
     font-size: 2em; }
   .debat .debat-post {
+    box-sizing: border-box;
     background-color: white;
     border: 1px solid #ccc;
     margin: 30px auto;

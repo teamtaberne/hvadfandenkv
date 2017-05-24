@@ -15,24 +15,17 @@
 	</div>
 </div>
 
-<div class="wrapper">
-	<div class="grid grid-pad">
-	    <div class="col-1-1">
-	       <div class="content">
-	           <div class="kontaktform">
-					<form>
-					    <input type="text" id="name" name="name" placeholder="Navn" class="input">
 
-					    <input type="email" id="email" name="email" placeholder="Email" class="input">
+<div class="kontaktform">
+	<form>
+	    <input type="text" id="name" name="name" placeholder="Navn" class="input">
 
-					    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox"></textarea>
-					    <br>
-					    <input type="submit" value="Send" class="button">
-				  </form>
-				</div>
-	       </div>
-	    </div>
-	</div>
+	    <input type="email" id="email" name="email" placeholder="Email" class="input">
+
+	    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox"></textarea>
+	    <br>
+	    <input type="submit" value="Send" class="button">
+  	</form>
 </div>
 
 
