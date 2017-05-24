@@ -513,13 +513,37 @@ footer {
     text-align: center;
     font-size: 2em; }
 
+.kontaktform {
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 50px; }
+
 .button {
   color: #FF9100;
   background-color: #009688;
   border: none;
-  padding: 10px 30px;
+  padding: 10px 40px;
   border-radius: 5px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  float: right; }
+
+.button:hover {
+  background-color: #00695C; }
+
+.input {
+  margin: 15px auto;
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #009688; }
+
+textarea {
+  height: 150px; }
 
 @media screen and (max-width: 668px) {
   .navigation {

@@ -1,6 +1,7 @@
 
 $maincolor: #009688; // TEAL
 $secondcolor: #FF9100; // ORANGE
+$hovercolor: #00695C; // DARK TEAL
 $font: 'Roboto', Arial, Helvetica, sans-serif;
 body {
 font-family: $font;
@@ -353,14 +354,41 @@ $eventimg: 70%;
   }
 
 // kontakt formular
+.kontaktform {
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 .button {
   color: $secondcolor;
   background-color: $maincolor;
   border: none;
-  padding: 10px 30px;
+  padding: 10px 40px;
   border-radius: 5px;
   font-family: $font; 
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
 
+.button:hover {
+    background-color: $hovercolor;
+}
+
+.input {
+  margin: 15px auto;
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid $maincolor;
+}
+
+textarea {
+  height: 150px;
 }
 
 // KONTAKT SLUT

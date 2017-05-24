@@ -16,12 +16,12 @@
 </div>
 
 <div class="kontaktform">
-    <input type="text" id="name" name="name" placeholder="Navn">
+    <input type="text" id="name" name="name" placeholder="Navn" class="input">
 
-    <input type="email" id="email" name="email" placeholder="Email">
+    <input type="email" id="email" name="email" placeholder="Email" class="input">
 
-    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar"></textarea>
-
+    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox"></textarea>
+    <br>
     <input type="submit" value="Send" class="button">
   </form>
 </div>
