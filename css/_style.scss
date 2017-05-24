@@ -1,8 +1,11 @@
 
 $maincolor: #009688; // TEAL
 $secondcolor: #FF9100; // ORANGE
+$hovercolor: #00695C; // DARK TEAL
+$backgroundcolor: #E0F2F1; // LIGHT TEAL
+$font: 'Roboto', Arial, Helvetica, sans-serif;
 body {
-font-family: 'Roboto', sans-serif;
+font-family: $font;
 }
  // NAVIGATIONEN
 .navigation {
@@ -337,10 +340,6 @@ $eventimg: 70%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  img {
-    margin: 20px 20px 20px 0px;
-    width: 80%;
-  }
   h1 {
       padding-top: 150px;
       width: 70%;
@@ -350,3 +349,144 @@ $eventimg: 70%;
       font-size: 2em;
     }
   }
+
+// kontakt formular
+.wrapper {
+  padding-bottom: 70px;
+}
+
+.button {
+  color: $secondcolor;
+  background-color: $maincolor;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-family: $font; 
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
+
+.button:hover {
+    background-color: $hovercolor;
+}
+
+.input {
+  margin: 15px auto;
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid $maincolor;
+}
+
+textarea {
+  height: 150px;
+}
+// KONTAKT SLUT
+
+
+
+// DEBAT BEGYNDER
+
+//Hero
+.debathero {
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/kontakt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  img {
+    float: left;
+    margin: 20px 20px 20px 20px;
+    width: 350px;
+  }
+  .debathero-vote {
+    max-width: 350px;
+    float: left;
+    background-color: $backgroundcolor;
+    opacity: 0.75;
+    padding: 30px;
+    margin: 50px 0 0 50px;
+    img {
+      width: 20px;
+      margin-right: 20px; 
+    }
+    td {
+      vertical-align: middle;
+    }
+  }
+}
+
+.debat {
+  .debatform {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    .input {
+      border: 1px solid #ccc;
+    }
+  }
+  background-color: $backgroundcolor;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+  h1 {
+    width: 70%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+  }
+  .debat-post {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+    .debat-post-content {
+      width: 90%;
+      float: left;
+      line-height: 1.5;
+      h2 {
+        text-align: left;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+      }
+      p {
+        text-align: left;
+        font-size: 1em;
+      }
+    }
+    .debat-post-points {
+      float: right;
+      .debat-post-points-up {
+        padding-bottom: 40px;
+        h3 {
+          float: right;
+        }
+        img {
+          width: 30px;
+          float: left;
+          margin-right: 10px;
+        }
+
+      }
+      .debat-post-points-down {
+        h3 {
+          float: right;
+        }
+        img {
+          width: 30px;
+          margin-right: 10px;
+          float: left;
+        }
+      }
+    }
+  }
+}
+
+// DEBAT SLUT
