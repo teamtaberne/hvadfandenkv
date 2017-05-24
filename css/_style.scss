@@ -400,10 +400,21 @@ $eventimg: 70%;
   }
 
 // kontakt formular
-.wrapper {
-  padding-bottom: 70px;
+.kontaktform {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    padding-bottom: 50px;
 }
 
+.input {
+      margin: 15px auto;
+      width: 100%;
+      resize: vertical;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid $maincolor;
+    }
+    
 .button {
   color: $secondcolor;
   background-color: $maincolor;
@@ -417,16 +428,7 @@ $eventimg: 70%;
 }
 
 .button:hover {
-    background-color: $hovercolor;
-}
-
-.input {
-  margin: 15px auto;
-  width: 100%;
-  resize: vertical;
-  padding: 15px;
-  border-radius: 5px;
-  border: 1px solid $maincolor;
+  background-color: $hovercolor;
 }
 
 textarea {
@@ -489,6 +491,7 @@ textarea {
     font-size: 2em;
   }
   .debat-post {
+    box-sizing: border-box;
     background-color: white;
     border: 1px solid #ccc;
     margin: 30px auto;
