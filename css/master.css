@@ -261,11 +261,9 @@ body {
   height: 100px;
   background-color: #009688; }
   .navigation .navlogo {
-    width: 45%;
+    width: 30%;
     z-index: 1; }
   .navigation .navbar {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: 1.3em;
     line-height: 30px;
@@ -364,6 +362,92 @@ footer {
 .sektion_2billede h1 {
   font-size: 1.3em; }
 
+.sectionhero_2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/stalkpol.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.search_1 {
+  background-color: #def0ef;
+  text-align: center;
+  height: 70px; }
+  .search_1 input {
+    width: 70%;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 3px;
+    height: 50px;
+    font-size: 1.3em;
+    margin-top: 10px; }
+
+.pollogos .pollogo img {
+  width: 80%;
+  border-radius: 350px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.pollogos_2 {
+  margin-top: 100px; }
+
+.sectionhero_2_venstre {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/venstreblur.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.venstre h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 160px; }
+
+.venstre .markesager h1 {
+  text-align: right;
+  margin-right: 200px; }
+
+.venstre_1 {
+  margin-top: 50px; }
+  .venstre_1 .icons li {
+    margin: 30; }
+  .venstre_1 .icons img {
+    vertical-align: middle;
+    width: 12%; }
+
+.polpic {
+  width: 100%;
+  height: 1500px;
+  background-image: url("../images/sidesam.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .polpic .photo_3 img {
+    border-radius: 250px;
+    margin-top: 80px;
+    margin-left: 15px; }
+  .polpic .photo img {
+    border-radius: 250px;
+    margin-top: 80px;
+    margin-left: 15px; }
+  .polpic .photo h1 {
+    margin-left: 80px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 80px; }
+  .polpic .photo_2 img {
+    border-radius: 250px;
+    margin-top: 80px;
+    margin-left: 150px; }
+  .polpic .photo_2 h1 {
+    font-size: 1.5em;
+    margin-left: 230px;
+    margin-top: 10px;
+    margin-bottom: 80px; }
+
 .sectionhero_3 {
   width: 100%;
   height: 800px;
@@ -443,4 +527,56 @@ footer {
         width: 10%;
         display: none; }
       .navigation .navbar .open {
-        display: block; } }
+        display: block; }
+  .sectionhero_2_venstre {
+    width: 100%;
+    height: 800px;
+    background-image: url("../images/venstreblur.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .venstre h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 160px; }
+  .venstre .markesager h1 {
+    text-align: center;
+    margin-right: 0px; }
+  .venstre_1 {
+    margin-top: 0px; }
+    .venstre_1 .icons li {
+      margin: 30; }
+    .venstre_1 .icons img {
+      vertical-align: middle;
+      width: 20%; }
+  .polpic {
+    width: 100%;
+    height: 1500px;
+    background-image: url(none);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .polpic .photo_3 img {
+      border-radius: 250px;
+      margin-top: 180px;
+      margin-left: 0px; }
+    .polpic .photo_3 h1 {
+      margin-top: 10px;
+      margin-left: 80px;
+      font-size: 1.5em; }
+    .polpic .photo img {
+      border-radius: 250px;
+      margin-top: 0px;
+      margin-left: 0px; }
+    .polpic .photo h1 {
+      margin-top: 10px;
+      margin-left: 80px;
+      font-size: 1.5em; }
+    .polpic .photo_2 img {
+      border-radius: 250px;
+      margin-top: 0px;
+      margin-left: 0px; }
+    .polpic .photo_2 h1 {
+      margin-top: 10px;
+      font-size: 1.5em;
+      margin-left: 80px; } }

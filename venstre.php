@@ -14,60 +14,54 @@
   <div class="col-1-1 mobile-col-1-1">
     <h1>VENSTRE</h1>
   </div>
-  <div class="col-1-1 markesager">
+  <div class="col-1-1 mobile-col-1-1 markesager">
     <h1>MÆRKESAGER</h1>
   </div>
 </div>
 <div class="grid grid-pad venstre_1">
-  <div class="col-1-2 icons">
+  <div class="col-1-2 mobile-col-1-1  icons">
     <ul>
       <li><img src="images/ikoner/ungdom.png" alt="Ungdom"> Su'en skal ned!</li>
       <li><img src="images/ikoner/beskæftigelse.png" alt="beskæftigelse"> Fuck kontantloftet</li>
       <li><img src="images/ikoner/miljø.png" alt="Miljø"> Hulk har også følelser</li>
     </ul>
   </div>
-  <div class="col-1-2 icons">
+  <div class="col-1-2 mobile-col-1-1 icons">
     <ul>
       <li><img src="images/ikoner/sundhed2.png" alt=""> Hospitaler er for de svage</li>
       <li><img src="images/ikoner/økonomi.png" alt=""> Skat er til mænd</li>
       <li><img src="images/ikoner/kultur.png" alt=""> Gratis tv</li>
     </ul>
     </div>
-</div>
+  </div>
 </div>
 <div class="polpic">
-<div class="col-1-2 photo">
+  <div class="grid grid-pad">
+<div class="col-1-2 mobile-col-1-1 photo_3">
   <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
   <h1>Lars Lykke</h1>
 </div>
-  <div class="col-1-2 photo">
+  <div class="col-1-2 mobile-col-1-1 photo_2">
     <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
     <h1>Lars Lykke</h1>
   </div>
-</div>
-<div class="polpic_2">
-  <div class="col-1-2 photo_1">
+  <div class="col-1-2 mobile-col-1-1 photo">
     <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
     <h1>Lars Lykke</h1>
   </div>
-  <div class="col-1-2 photo_1">
+  <div class="col-1-2 mobile-col-1-1 photo_2">
     <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
     <h1>Lars Lykke</h1>
   </div>
-</div>
-<div class="polpic">
-  <div class="col-1-2 photo">
+  <div class="col-1-2 mobile-col-1-1 photo">
     <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
     <h1>Lars Lykke</h1>
   </div>
-  <div class="col-1-2 photo">
+  <div class="col-1-2 mobile-col-1-1 photo_2">
       <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
       <h1>Lars Lykke</h1>
   </div>
-</div>
-
-
-
+    </div>
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
   </body>
