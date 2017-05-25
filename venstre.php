@@ -58,21 +58,27 @@
   <div class="politikere">
     <div class="politikere-left">
       <div class="politikere-politiker">
-        <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+        <a href="charmaine.php">
+          <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/charmainef.JPG)">
+          </div>
+          <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/charmainee.JPG)">
+          </div>
+          <h2> Charmaine McLean</h2>
         </a>
       </div> 
       <div class="politikere-politiker">
         <a href="#">
           <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+          <h2> Lars Lykke Rasmussen</h2>
         </a>
       </div> 
       <div class="politikere-politiker">
         <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+          <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/camillaf.JPG)">
+          </div>
+          <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/camillae.JPG)">
+          </div>
+          <h2> Camilla Voss </h2>
         </a>
       </div> 
     </div>
@@ -85,8 +91,11 @@
       </div> 
       <div class="politikere-politiker">
         <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+          <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/tobiasf.JPG)">
+          </div>
+          <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/tobiase.JPG)">
+          </div>
+          <h2> Tobias Heide </h2>
         </a>
       </div> 
       <div class="politikere-politiker">

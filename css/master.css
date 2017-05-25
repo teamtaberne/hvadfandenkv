@@ -486,9 +486,23 @@ footer {
     .politikere .politikere-politiker a {
       text-decoration: none;
       color: black;
-      font-size: 1.2em; }
+      font-size: 1.2em;
+      cursor: pointer; }
       .politikere .politikere-politiker a h2 {
         padding-top: 15px; }
+      .politikere .politikere-politiker a .politikere-politiker-picture-fun {
+        display: none; }
+      .politikere .politikere-politiker a .politikere-politiker-picture {
+        width: 80%;
+        padding-top: 80%;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 100%;
+        margin: 0 auto; }
+    .politikere .politikere-politiker a:hover .politikere-politiker-picture-fun {
+      display: block; }
+    .politikere .politikere-politiker a:hover .politikere-politiker-picture-serious {
+      display: none; }
   .politikere img {
     width: 80%;
     border-radius: 100%; }
@@ -523,6 +537,8 @@ footer {
   background-position: center;
   background-size: cover; }
   .sectionhero_2_1 .profile .profilepic img {
+    width: 300px;
+    height: 300px;
     border-radius: 250px; }
   .sectionhero_2_1 .profile .navn h1 {
     font-size: 1.5em;
@@ -589,7 +605,7 @@ footer {
     padding: 20px; }
     .live_background .events_2 .event-content {
       width: 70%;
-      margin: 0 auto; }
+      margin: 10px auto; }
     .live_background .events_2 .event-content-right {
       float: right; }
     .live_background .events_2 .event-content-left {
