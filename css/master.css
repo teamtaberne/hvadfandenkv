@@ -264,6 +264,8 @@ body {
     width: 30%;
     z-index: 1; }
   .navigation .navbar {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: 1.3em;
     line-height: 30px;
@@ -681,7 +683,7 @@ textarea {
         margin-right: 10px;
         float: left; }
 
-@media only screen and (min-device-width: 319px) and (max-device-width: 375px) and (orientation: portrait) {
+@media screen and (max-width: 375px) {
   .navigation {
     width: 100%;
     height: 100px;
