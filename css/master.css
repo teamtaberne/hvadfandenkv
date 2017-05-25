@@ -351,6 +351,14 @@ footer {
       .sectionhero_1 .maaling .meningsmaaling label {
         font-weight: bold; }
 
+.sectionhero_1_1 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/senestenyt2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .seneste_tekst {
   color: white;
   margin: 30px; }
@@ -594,7 +602,7 @@ textarea {
   overflow: hidden;
   width: 100%;
   height: 600px;
-  background-image: url("../images/kontakt.png");
+  background-image: url("../images/redebat.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }

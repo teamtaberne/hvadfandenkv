@@ -48,7 +48,7 @@
 </div>
 <div class="clearfix">
 </div>
-<div class="sectionhero_1">
+<div class="sectionhero_1_1">
 <div class="grid grid-pad">
   <div class="col-1-2 mobile-col-1-1">
     <section class="seneste_tekst">
