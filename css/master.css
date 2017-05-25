@@ -356,12 +356,17 @@ footer {
   margin: 30px; }
   .seneste_tekst h1 {
     font-size: 1.5em; }
+  .seneste_tekst p {
+    margin-top: 10px; }
 
 .sektion_2billede img {
   margin-top: 200px; }
 
 .sektion_2billede h1 {
   font-size: 1.3em; }
+
+.sektion_2billede p {
+  line-height: 20px; }
 
 .sectionhero_2 {
   width: 100%;
@@ -484,7 +489,7 @@ footer {
 .sectionhero_3 {
   width: 100%;
   height: 800px;
-  background-image: url("../images/eventbillede.png");
+  background-image: url("../images/7608.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
