@@ -500,12 +500,19 @@ footer {
   height: 200px; }
 
 .livestream .live_2 {
+  float: right; }
+  .livestream .live_2 img {
+    width: 100%;
+    padding-bottom: 50px; }
+
+.livestream .live_3 {
+  float: left;
   font-size: 1.5em;
   line-height: 50px;
-  margin-top: 90px; }
-
-.livestream .live_3 img {
-  width: 100%; }
+  margin-top: 190px; }
+  @media screen and (max-width: 770px) {
+    .livestream .live_3 {
+      margin-top: 0; } }
 
 .live_background {
   background-color: #def0ef; }

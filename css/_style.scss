@@ -341,14 +341,19 @@ $eventimg: 70%;
     }
   }
   .live_2 {
-
-    font-size: 1.5em;
-    line-height: 50px;
-    margin-top: 90px;
-  }
-  .live_3 {
+    float: right;
     img {
       width: 100%;
+      padding-bottom: 50px;
+    }    
+  }
+  .live_3 {
+    float: left;
+    font-size: 1.5em;
+    line-height: 50px;
+    margin-top: 190px;
+    @media screen and (max-width: 770px) {
+      margin-top: 0;
     }
   }
 }

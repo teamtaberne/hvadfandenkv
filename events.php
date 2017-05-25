@@ -16,12 +16,11 @@
       <h1>FIND ALLE KOMMENDE EVENTS HER</h1>
     </div>
     <div class="col-1-2 live_2 mobile-col-1-1">
-      <h1>LIVE: Venstre holder pressemøde</h1>
-      <p>BRØDTEKST</p>
-    </div>
-    <div class="col-1-2 live_3 mobile-col-1-1">
       <img src="images/livestream.png" alt="livestream-dansk-politk">
     </div>
+    <div class="col-1-2 live_3 mobile-col-1-1">
+      <h1>LIVE: Venstre holder pressemøde</h1>
+      <p>BRØDTEKST</p>
     </div>
   </div>
 </div>
