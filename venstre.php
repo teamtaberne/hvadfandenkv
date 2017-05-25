@@ -35,6 +35,9 @@
     </div>
   </div>
 </div>
+<div class="clearfixsmall">
+
+</div>
 <div class="polpic">
   <div class="grid grid-pad">
 <div class="col-1-2 mobile-col-1-1 photo_3">
