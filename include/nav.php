@@ -37,7 +37,7 @@ $(function(){
         }
         else if( $('#sidenav').is(':hidden') ) {
             $('#sidenav').show();
-            $('#sidenav').animate({ 'width': '250px' }, 'slow');
+            $('#sidenav').animate({ 'width': '250px' }, 'fast');
         }
     });
 });
