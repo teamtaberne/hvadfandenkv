@@ -167,7 +167,6 @@ footer {
 // STALK DIN POLITIKER
 .sectionhero_2 {
   width: 100%;
-  height: 800px;
   background-image: url("../images/stalkpol.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -177,7 +176,7 @@ footer {
 .search_1 {
   background-color: #def0ef;
   text-align: center;
-  height: 70px;
+  height: 100px;
     input {
       width: 70%;
       text-align: center;
@@ -191,11 +190,12 @@ footer {
   .pollogos {
   .pollogo {
     img {
-      width: 80%;
+      width: 70%;
       border-radius: 350px;
-      border: 1px solid black;
-      margin-top: 20px;
-      margin-bottom: 10px;
+      border: 1px solid $secondcolor;
+      margin: 15px auto;
+      text-align: center;
+      display: block;
     }
   }
 }
