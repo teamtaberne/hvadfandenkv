@@ -298,7 +298,6 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  overflow: auto;
   .profile {
   .profilepic {
     img {
@@ -331,9 +330,15 @@ footer {
   }
   p {
     line-height: 20px;
+      }
+    }
+    .instafeed {
+      img {
+        width: 50%;
+        display: block;
+      }
+    }
   }
-}
-}
 }
 // - De personlige sider slutter // // - De personlige sider slutter //
 // STALK DIN POLITIKER SLUTTER

@@ -478,8 +478,7 @@ footer {
   background-image: url("../images/grey.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  overflow: auto; }
+  background-size: cover; }
   .sectionhero_2_1 .profile .profilepic img {
     border-radius: 250px; }
   .sectionhero_2_1 .profile .navn h1 {
@@ -498,6 +497,9 @@ footer {
       margin-left: 290px; }
     .sectionhero_2_1 .profile .politiktekst p {
       line-height: 20px; }
+  .sectionhero_2_1 .profile .instafeed img {
+    width: 50%;
+    display: block; }
 
 .sectionhero_3 {
   width: 100%;
