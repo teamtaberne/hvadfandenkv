@@ -276,12 +276,10 @@ body {
     .navigation .navbar li {
       color: white;
       margin: 10px;
-      padding: 10px;
-      transition: color 0.4s ease-in; }
+      padding: 10px; }
     .navigation .navbar li:hover {
       color: #FF9100;
-      border-left: 1px solid #FF9100;
-      border-right: 1px solid #FF9100; }
+      border-bottom: 1px solid #FF9100; }
     .navigation .navbar .open {
       display: none; }
 
@@ -545,6 +543,9 @@ footer {
   width: 50%;
   margin: 0 auto 50px auto;
   padding-bottom: 50px; }
+  @media screen and (max-width: 770px) {
+    .kontaktform {
+      width: 80%; } }
 
 .input {
   margin: 15px auto;
@@ -580,16 +581,30 @@ textarea {
   background-position: center;
   background-size: cover; }
   .debathero img {
-    float: left;
-    margin: 20px 20px 20px 20px;
-    width: 350px; }
+    float: right;
+    margin: 20px 70px 20px 20px;
+    width: 300px; }
+    @media screen and (max-width: 1100px) {
+      .debathero img {
+        width: 34%;
+        margin: 20px 30px 20px 0; } }
+    @media screen and (max-width: 500px) {
+      .debathero img {
+        width: 70%;
+        margin: 20px 70px 20px 20px; } }
   .debathero .debathero-vote {
     max-width: 350px;
-    float: left;
+    float: right;
     background-color: #E0F2F1;
     opacity: 0.75;
     padding: 30px;
-    margin: 50px 0 0 50px; }
+    margin: 50px 50px 0 0; }
+    @media screen and (max-width: 1100px) {
+      .debathero .debathero-vote {
+        width: 35%; } }
+    @media screen and (max-width: 500px) {
+      .debathero .debathero-vote {
+        display: none; } }
     .debathero .debathero-vote img {
       width: 20px;
       margin-right: 20px; }
@@ -604,6 +619,9 @@ textarea {
   .debat .debatform {
     width: 50%;
     margin: 0 auto 50px auto; }
+    @media screen and (max-width: 770px) {
+      .debat .debatform {
+        width: 80%; } }
     .debat .debatform .input {
       border: 1px solid #ccc; }
   .debat h1 {
@@ -613,6 +631,15 @@ textarea {
     text-align: center;
     font-size: 2em; }
   .debat .debat-post {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     box-sizing: border-box;
     background-color: white;
     border: 1px solid #ccc;
@@ -621,8 +648,11 @@ textarea {
     width: 50%;
     border-radius: 15px;
     overflow: hidden; }
+    @media screen and (max-width: 770px) {
+      .debat .debat-post {
+        width: 80%; } }
     .debat .debat-post .debat-post-content {
-      width: 90%;
+      width: 75%;
       float: left;
       line-height: 1.5; }
       .debat .debat-post .debat-post-content h2 {
@@ -633,7 +663,9 @@ textarea {
         text-align: left;
         font-size: 1em; }
     .debat .debat-post .debat-post-points {
-      float: right; }
+      float: right;
+      max-width: 19%;
+      padding-left: 10px; }
       .debat .debat-post .debat-post-points .debat-post-points-up {
         padding-bottom: 40px; }
         .debat .debat-post .debat-post-points .debat-post-points-up h3 {
