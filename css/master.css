@@ -543,6 +543,9 @@ footer {
   width: 50%;
   margin: 0 auto 50px auto;
   padding-bottom: 50px; }
+  @media screen and (max-width: 770px) {
+    .kontaktform {
+      width: 80%; } }
 
 .input {
   margin: 15px auto;
