@@ -335,7 +335,7 @@ footer {
       margin-top: 20px;
       color: white;
       text-align: center;
-      font-size: 2em; }
+      font-size: 1.5em; }
     .sectionhero_1 .facts p {
       text-align: center;
       font-size: 1.2em;
@@ -343,9 +343,9 @@ footer {
       color: white; }
   .sectionhero_1 .maaling {
     margin: 50px; }
-    .sectionhero_1 .maaling h1 {
+    .sectionhero_1 .maaling h2 {
       text-align: center;
-      font-size: 1.1em; }
+      font-size: 1.2em; }
     .sectionhero_1 .maaling img {
       margin: 20px 0px 20px 20px; }
     .sectionhero_1 .maaling .meningsmaaling {
@@ -353,21 +353,34 @@ footer {
       .sectionhero_1 .maaling .meningsmaaling label {
         font-weight: bold; }
 
+.sectionhero_1_1 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/senestenyt2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .seneste_tekst {
   color: white;
   margin: 30px; }
-  .seneste_tekst h1 {
-    font-size: 1.5em; }
+  .seneste_tekst h2 {
+    font-size: 1.2em; }
   .seneste_tekst p {
+    line-height: 20px;
     margin-top: 10px; }
 
 .sektion_2billede img {
-  margin-top: 200px; }
+  margin-top: 200px;
+  width: 100%;
+  height: 350px; }
 
-.sektion_2billede h1 {
-  font-size: 1.3em; }
+.sektion_2billede h2 {
+  font-size: 1.2em;
+  margin-top: 10px; }
 
 .sektion_2billede p {
+  margin-top: 10px;
   line-height: 20px; }
 
 .sectionhero_2 {
@@ -508,8 +521,7 @@ footer {
   background-image: url("../images/grey.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  overflow: auto; }
+  background-size: cover; }
   .sectionhero_2_1 .profile .profilepic img {
     border-radius: 250px; }
   .sectionhero_2_1 .profile .navn h1 {
@@ -528,6 +540,9 @@ footer {
       margin-left: 290px; }
     .sectionhero_2_1 .profile .politiktekst p {
       line-height: 20px; }
+  .sectionhero_2_1 .profile .instafeed img {
+    width: 50%;
+    display: block; }
 
 .sectionhero_3 {
   width: 100%;
@@ -637,7 +652,7 @@ textarea {
   overflow: hidden;
   width: 100%;
   height: 600px;
-  background-image: url("../images/kontakt.png");
+  background-image: url("../images/redebat.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }

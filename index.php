@@ -25,7 +25,7 @@
             <img src="images/mening1x.png" alt="Meningsmåling">
           </div>
           <div class="col-1-2">
-            <h1>EL mener at der er for få hænder i børnehaven - hvad mener du?</h1>
+            <h2>EL mener at der er for få hænder i børnehaven - hvad mener du?</h2>
           </div>
           <div class="col-1-2">
         <form class="meningsmaaling" action="index.html" method="post">
@@ -48,11 +48,11 @@
 </div>
 <div class="clearfix">
 </div>
-<div class="sectionhero_1">
+<div class="sectionhero_1_1">
 <div class="grid grid-pad">
   <div class="col-1-2 mobile-col-1-1">
     <section class="seneste_tekst">
-    <h1>Overskrift til vigtigt politisk emne</h1>
+    <h2>Kan skoleelever i sjetteklasse, arbejde ved søen uden at ødelægge naturen?</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -61,8 +61,8 @@
   </div>
   <div class="col-1-2 mobile-col-1-1">
     <section class="sektion_2billede">
-      <img src="images/box1x.png" alt="Fyld">
-      <h1>TEST DIG SELV</h1>
+      <img src="images/senestenyt3.jpg" alt="Fyld">
+      <h2>TEST DIG SELV</h2>
       <p>Hvilken lokalpolitiker ligner du mest?<br>Og her taler vi ikke om politiske holdninger - næn ej her
         tænker vi på personligheden</p>
     </section>

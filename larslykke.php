@@ -47,10 +47,11 @@
         </div>
       </div>
     </div>
+    <div class="col-1-1 mobile-col-1-1 instafeed">
+      <img src="images/instagramfeed.jpg" alt="Instragram Feed">
+    </div>
   </div>
 </div>
-
-
 
 
   <?php include 'include/footer.php'; ?>
