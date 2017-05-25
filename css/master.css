@@ -683,7 +683,7 @@ textarea {
         margin-right: 10px;
         float: left; }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 675px) {
   .navigation {
     width: 100%;
     height: 100px;
