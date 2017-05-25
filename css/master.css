@@ -320,6 +320,23 @@ footer {
   height: 100px;
   background-color: #009688; }
 
+.clearfix {
+  width: 100%;
+  height: 300px; }
+
+@media screen and (max-width: 770px) {
+  .clearfixtablet {
+    width: 100%;
+    height: 300px; } }
+
+.clearfixsmall {
+  width: 100%;
+  height: 100px; }
+
+.clearfixlarge {
+  width: 100%;
+  height: 400px; }
+
 .sectionhero_1 {
   width: 100%;
   height: 800px;
@@ -330,12 +347,21 @@ footer {
   .sectionhero_1 img {
     margin: 20px 20px 20px 0px;
     width: 80%; }
+    @media screen and (max-width: 770px) {
+      .sectionhero_1 img {
+        width: 40%; } }
+    @media screen and (max-width: 500px) {
+      .sectionhero_1 img {
+        width: 70%; } }
   .sectionhero_1 .facts {
     margin-top: 50px;
     padding: 10px;
     background-color: #FF9100;
     border-radius: 20px;
     height: 200px; }
+    @media screen and (max-width: 770px) {
+      .sectionhero_1 .facts {
+        height: 100px; } }
     .sectionhero_1 .facts h1 {
       margin-top: 20px;
       color: white;
@@ -379,6 +405,9 @@ footer {
   margin-top: 200px;
   width: 100%;
   height: 350px; }
+  @media screen and (max-width: 770px) {
+    .sektion_2billede img {
+      margin-top: 20px; } }
 
 .sektion_2billede h2 {
   font-size: 1.2em;
@@ -834,15 +863,6 @@ textarea {
 @media screen and (max-width: 500px) {
   .sectionhero_1 img {
     margin: 0px 0px 0px 0px; }
-  .clearfix {
-    width: 100%;
-    height: 300px; }
-  .clearfixsmall {
-    width: 100%;
-    height: 100px; }
-  .clearfixlarge {
-    width: 100%;
-    height: 400px; }
   .seneste_tekst {
     line-height: 20px;
     margin-top: 10px; }

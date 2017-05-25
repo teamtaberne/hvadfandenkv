@@ -47,7 +47,7 @@
     </div>
   </div>
 </div>
-<div class="clearfix">
+<div class="clearfixtablet">
 </div>
 <div class="sectionhero_1_1">
 <div class="grid grid-pad">
