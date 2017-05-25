@@ -223,8 +223,6 @@ footer {
       }
     }
   }
-
-
   .polpic {
     width: 100%;
     height: 1500px;
@@ -237,6 +235,12 @@ footer {
       border-radius: 250px;
       margin-top: 80px;
       margin-left: 15px;
+    }
+    h1 {
+      margin-left: 80px;
+      font-size: 1.5em;
+      margin-top: 10px;
+      margin-bottom: 80px;
     }
 }
     .photo {
@@ -264,11 +268,56 @@ footer {
     margin-top: 10px;
     margin-bottom: 80px;
   }
+ }
+}
+// - De personlige sider // // - De personlige sider //
+.sectionhero_2_1 {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../images/grey.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .profile {
+  .profilepic {
+    img {
+    border-radius: 250px;
+    }
+  }
+  .navn {
+    h1 {
+      font-size: 1.5em;
+      margin-left: 30px;
+    }
+  }
+  .icons {
+    li {
+      margin: 30;
+    }
+    img {
+      vertical-align: middle;
+      width: 15%;
+    }
+  }
+  .politiktekst {
+    margin-top: 50px;
+  .icons_1 {
+    img {
+      vertical-align: middle;
+      width: 25%;
+      margin-left: 290px;
+    }
+  }
+  p {
+    line-height: 20px;
+  }
 }
 }
+}
+// - De personlige sider slutter // // - De personlige sider slutter //
 // STALK DIN POLITIKER SLUTTER
 
-// EVENTS // EVENTS //
+// EVENTS // EVENTS // // EVENTS // EVENTS //
 .sectionhero_3 {
   width: 100%;
   height: 800px;
@@ -327,7 +376,7 @@ $eventimg: 70%;
     }
   }
 }
-// EVENT SLUT //
+// EVENT SLUT // // EVENT SLUT // // EVENT SLUT //
 
 
 // KONTAKT BEGYNDER
@@ -351,33 +400,35 @@ $eventimg: 70%;
   }
 
 // kontakt formular
-.wrapper {
-  padding-bottom: 70px;
+.kontaktform {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    padding-bottom: 50px;
 }
 
+.input {
+      margin: 15px auto;
+      width: 100%;
+      resize: vertical;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid $maincolor;
+    }
+    
 .button {
   color: $secondcolor;
   background-color: $maincolor;
   border: none;
   padding: 10px 40px;
   border-radius: 5px;
-  font-family: $font; 
+  font-family: $font;
   font-size: 16px;
   cursor: pointer;
   float: right;
 }
 
 .button:hover {
-    background-color: $hovercolor;
-}
-
-.input {
-  margin: 15px auto;
-  width: 100%;
-  resize: vertical;
-  padding: 15px;
-  border-radius: 5px;
-  border: 1px solid $maincolor;
+  background-color: $hovercolor;
 }
 
 textarea {
@@ -412,7 +463,7 @@ textarea {
     margin: 50px 0 0 50px;
     img {
       width: 20px;
-      margin-right: 20px; 
+      margin-right: 20px;
     }
     td {
       vertical-align: middle;
@@ -440,6 +491,7 @@ textarea {
     font-size: 2em;
   }
   .debat-post {
+    box-sizing: border-box;
     background-color: white;
     border: 1px solid #ccc;
     margin: 30px auto;
