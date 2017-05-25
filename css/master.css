@@ -259,9 +259,14 @@ body {
 .navigation {
   width: 100%;
   height: 100px;
-  background-color: #009688; }
+  background-color: #009688;
+  overflow: hidden; }
+  .navigation .navigation-left {
+    float: left; }
+  .navigation .navigation-right {
+    float: right; }
   .navigation .navlogo {
-    width: 30%;
+    height: 80px;
     z-index: 1; }
   .navigation .navbar {
     display: -webkit-inline-flex;
@@ -279,6 +284,8 @@ body {
       color: white;
       margin: 10px;
       padding: 10px; }
+    .navigation .navbar a.active li {
+      color: #FF9100; }
     .navigation .navbar li:hover {
       color: #FF9100;
       border-bottom: 1px solid #FF9100; }
@@ -814,13 +821,11 @@ textarea {
         margin-right: 10px;
         float: left; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1030px) {
   .navigation {
     width: 100%;
     height: 100px;
     background-color: #009688; }
-    .navigation .navlogo {
-      width: 50%; }
     .navigation .navbar {
       font-size: 3em;
       margin: 0;
@@ -832,7 +837,9 @@ textarea {
         width: 10%;
         display: none; }
       .navigation .navbar .open {
-        display: block; }
+        display: block; } }
+
+@media screen and (max-width: 500px) {
   .sectionhero_1 img {
     margin: 0px 0px 0px 0px; }
   .clearfix {

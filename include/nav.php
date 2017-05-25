@@ -1,14 +1,14 @@
 <nav class="navigation grid-pad">
-    <div class="col-3-12 mobile-col-2-3">
+    <div class="navigation-left">
       <a href="index.php"><img class="navlogo" src="images/logo.png" alt="hvadfanderkommunalvalglogo"></a>
     </div>
-    <div class="col-9-12 mobile-col-0-3">
+    <div class="navigation-right">
       <ul class="navbar">
-        <a href="index.php"><li class="none">Seneste nyt</li></a>
-        <a href="stalk.php"><li class="none">Stalk din politiker</li></a>
-        <a href="events.php"><li class="none">Events</li></a>
-        <a href="debat.php"><li class="none">Debat</li></a>
-        <a href="kontakt.php"><li class="none">Kontakt Os</li></a>
+        <a href="index.php" class="<?= $active == 'index' ? 'active' : '' ?>"><li class="none">Seneste nyt</li></a>
+        <a href="stalk.php" class="<?= $active == 'stalk' ? 'active' : '' ?>"><li class="none">Stalk din politiker</li></a>
+        <a href="events.php" class="<?= $active == 'events' ? 'active' : '' ?>"><li class="none">Events</li></a>
+        <a href="debat.php" class="<?= $active == 'debat' ? 'active' : '' ?>"><li class="none">Debat</li></a>
+        <a href="kontakt.php" class="<?= $active == 'kontakt' ? 'active' : '' ?>"><li class="none">Kontakt Os</li></a>
         <a href="#"><li class="none">Skift kommune</li></a>
         <a href="#"><li id="opens" class="open"><span>&#9776;</span></li></a>
       </ul>

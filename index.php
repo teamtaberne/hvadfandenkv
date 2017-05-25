@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php $active = 'index' ?>
     <?php include 'include/head.php'; ?>
     <title>Seneste Nyt</title>
   </head>

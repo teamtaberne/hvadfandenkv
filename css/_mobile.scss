@@ -1,11 +1,11 @@
- @media screen and (max-width: 500px) {
+@media screen and (max-width: 1030px) {
    // NAVIGATIONEN //
   .navigation {
   width: 100%;
   height: 100px;
   background-color: $maincolor;
   .navlogo {
-    width: 50%;
+    //width: 50%;
     }
     .navbar {
       font-size: 3em;
@@ -23,10 +23,13 @@
       .open {
         display: block;
       }
-      }
     }
+  }
 
-  // NAVIGATIONEN SLUTTER //
+  // NAVIGATIONEN SLUTTER //  
+}
+ @media screen and (max-width: 500px) {
+
   // INDEX // INDEX //
   // SEKTION 1
   .sectionhero_1 {
