@@ -46,7 +46,8 @@
     </div>
   </div>
 </div>
-
+<div class="clearfix">
+</div>
 <div class="sectionhero_1">
 <div class="grid grid-pad">
   <div class="col-1-2 mobile-col-1-1">
@@ -68,7 +69,8 @@
   </div>
   </div>
 </div>
-
+<div class="clearfixsmall">
+</div>
 
 
 
