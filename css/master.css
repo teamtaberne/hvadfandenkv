@@ -264,8 +264,6 @@ body {
     width: 30%;
     z-index: 1; }
   .navigation .navbar {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: 1.3em;
     line-height: 30px;
@@ -335,7 +333,7 @@ footer {
       margin-top: 20px;
       color: white;
       text-align: center;
-      font-size: 2em; }
+      font-size: 1.5em; }
     .sectionhero_1 .facts p {
       text-align: center;
       font-size: 1.2em;
@@ -343,9 +341,9 @@ footer {
       color: white; }
   .sectionhero_1 .maaling {
     margin: 50px; }
-    .sectionhero_1 .maaling h1 {
+    .sectionhero_1 .maaling h2 {
       text-align: center;
-      font-size: 1.1em; }
+      font-size: 1.2em; }
     .sectionhero_1 .maaling img {
       margin: 20px 0px 20px 20px; }
     .sectionhero_1 .maaling .meningsmaaling {
@@ -364,18 +362,23 @@ footer {
 .seneste_tekst {
   color: white;
   margin: 30px; }
-  .seneste_tekst h1 {
-    font-size: 1.5em; }
+  .seneste_tekst h2 {
+    font-size: 1.2em; }
   .seneste_tekst p {
+    line-height: 20px;
     margin-top: 10px; }
 
 .sektion_2billede img {
-  margin-top: 200px; }
+  margin-top: 200px;
+  width: 100%;
+  height: 350px; }
 
-.sektion_2billede h1 {
-  font-size: 1.3em; }
+.sektion_2billede h2 {
+  font-size: 1.2em;
+  margin-top: 10px; }
 
 .sektion_2billede p {
+  margin-top: 10px;
   line-height: 20px; }
 
 .sectionhero_2 {
@@ -659,14 +662,8 @@ textarea {
     text-align: center;
     font-size: 2em; }
   .debat .debat-post {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
     box-sizing: border-box;
     background-color: white;
