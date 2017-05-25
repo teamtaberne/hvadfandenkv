@@ -9,6 +9,12 @@
   </head>
 <body>
   <?php include 'include/nav.php' ?>
+  <div class="search_1">
+    <div class="col-1-1 mobile-col-1-1">
+      <input type="search" name="Search" value="SØG">
+    </div>
+  </div> 
+
   <div class="venstrehero">
     <div class="venstrehero-headline">
       <h1>VENSTRE</h1>

@@ -529,36 +529,77 @@ footer {
       .politikere .politikere-right {
         width: 80%; } }
 
-.sectionhero_2_1 {
+.politikerhero {
   width: 100%;
-  height: 1000px;
+  min-height: 600px;
   background-image: url("../images/grey.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
-  .sectionhero_2_1 .profile .profilepic img {
-    width: 300px;
-    height: 300px;
-    border-radius: 250px; }
-  .sectionhero_2_1 .profile .navn h1 {
-    font-size: 1.5em;
-    margin-left: 30px; }
-  .sectionhero_2_1 .profile .icons li {
-    margin: 30; }
-  .sectionhero_2_1 .profile .icons img {
-    vertical-align: middle;
-    width: 15%; }
-  .sectionhero_2_1 .profile .politiktekst {
-    margin-top: 50px; }
-    .sectionhero_2_1 .profile .politiktekst .icons_1 img {
+  background-size: cover;
+  overflow: hidden; }
+  .politikerhero .hero-content {
+    padding: 5%; }
+    .politikerhero .hero-content .hero-content-image {
+      width: 100%;
+      padding-top: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+      border-radius: 100%; }
+    .politikerhero .hero-content .hero-content-left {
+      float: left;
+      width: 25%; }
+      @media screen and (max-width: 400px) {
+        .politikerhero .hero-content .hero-content-left {
+          float: none;
+          width: 80%;
+          margin: 0 auto 30px auto; } }
+    .politikerhero .hero-content .hero-content-right {
+      margin-left: 60px;
+      float: left;
+      width: 65%; }
+      .politikerhero .hero-content .hero-content-right .hero-content-name h1 {
+        font-size: 2em;
+        padding-bottom: 20px; }
+      .politikerhero .hero-content .hero-content-right .hero-content-facts {
+        overflow: hidden; }
+      .politikerhero .hero-content .hero-content-right .hero-content-facts-left {
+        float: left;
+        width: 49%; }
+      .politikerhero .hero-content .hero-content-right .hero-content-facts-right {
+        float: right;
+        width: 49%; }
+      .politikerhero .hero-content .hero-content-right .hero-content-text {
+        width: 100%;
+        padding-top: 10px; }
+      @media screen and (max-width: 400px) {
+        .politikerhero .hero-content .hero-content-right {
+          float: none;
+          width: 90%;
+          margin: 0 auto 30px auto; }
+          .politikerhero .hero-content .hero-content-right h1 {
+            text-align: center; }
+          .politikerhero .hero-content .hero-content-right .hero-content-facts-left {
+            float: none;
+            width: 100%; }
+          .politikerhero .hero-content .hero-content-right .hero-content-facts-right {
+            float: none;
+            width: 100%; }
+          .politikerhero .hero-content .hero-content-right .hero-content-text img {
+            display: none; } }
+    .politikerhero .hero-content img {
+      width: 40px; }
+    .politikerhero .hero-content td {
       vertical-align: middle;
-      width: 25%;
-      margin-left: 290px; }
-    .sectionhero_2_1 .profile .politiktekst p {
-      line-height: 20px; }
-  .sectionhero_2_1 .profile .instafeed img {
-    width: 50%;
-    display: block; }
+      padding: 10px 5px;
+      line-height: 1.4; }
+    .politikerhero .hero-content .icon-large {
+      width: 80px; }
+
+.instagram {
+  text-align: center; }
+  .instagram img {
+    width: 70%;
+    padding-bottom: 80px; }
 
 .sectionhero_3 {
   width: 100%;

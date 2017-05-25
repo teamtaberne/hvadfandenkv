@@ -356,62 +356,109 @@ footer {
 }
 
 
-// - De personlige sider // // - De personlige sider //
-.sectionhero_2_1 {
+// POLITIKERSIDE
+// Hero
+.politikerhero {
   width: 100%;
-  height: 1000px;
+  min-height: 600px;
   background-image: url("../images/grey.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  .profile {
-  .profilepic {
-    img {
-      width: 300px;
-      height: 300px;
-      border-radius: 250px;
+  overflow: hidden;
+  .hero-content {
+    padding: 5%;
+    .hero-content-image {
+      width: 100%;
+      padding-top: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+      border-radius: 100%;
     }
-  }
-  .navn {
-    h1 {
-      font-size: 1.5em;
-      margin-left: 30px;
-    }
-  }
-  .icons {
-    li {
-      margin: 30;
-    }
-    img {
-      vertical-align: middle;
-      width: 15%;
-    }
-  }
-  .politiktekst {
-    margin-top: 50px;
-  .icons_1 {
-    img {
-      vertical-align: middle;
+    .hero-content-left{
+      float: left;
       width: 25%;
-      margin-left: 290px;
-    }
-  }
-  p {
-    line-height: 20px;
+      @media screen and (max-width: 400px) {
+        float: none;
+        width: 80%;
+        margin: 0 auto 30px auto;
       }
     }
-    .instafeed {
-      img {
-        width: 50%;
-        display: block;
+    .hero-content-right{
+      margin-left: 60px;
+      float: left;
+      width: 65%;
+      .hero-content-name {
+        h1 {
+          font-size: 2em;
+          padding-bottom: 20px;
+        }
+      }
+      .hero-content-facts {
+        overflow: hidden;
+      }
+      .hero-content-facts-left {
+        float: left;
+        width: 49%;
+      }
+      .hero-content-facts-right {
+        float: right;
+        width: 49%;
+      }
+      .hero-content-text {
+        width: 100%;
+        padding-top: 10px;
+      }
+      @media screen and (max-width: 400px) {
+        float: none;
+        width: 90%;
+        margin: 0 auto 30px auto;
+        h1 {
+          text-align: center;
+        }
+        .hero-content-facts-left {
+        float: none;
+        width: 100%;
+        }
+        .hero-content-facts-right {
+          float: none;
+          width: 100%;
+        }
+        .hero-content-text {
+          img {
+            display: none;
+          }
+        }
       }
     }
+
+    img {
+      width: 40px;
+    }
+    td{
+      vertical-align: middle;
+      padding: 10px 5px;
+      line-height: 1.4;
+    }
+    .icon-large {
+        width: 80px;
+      }
   }
 }
-// - De personlige sider slutter // // - De personlige sider slutter //
-// STALK DIN POLITIKER SLUTTER
 
-// EVENTS // EVENTS // // EVENTS // EVENTS //
+// Instragramfeed
+.instagram {
+  text-align: center;
+  img {
+    width: 70%;
+    padding-bottom: 80px;
+  }
+}
+
+
+
+
+// EVENTS 
 .sectionhero_3 {
   width: 100%;
   height: 800px;
