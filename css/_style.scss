@@ -32,12 +32,10 @@ background-color: $maincolor;
   color: white;
   margin: 10px;
   padding: 10px;
-  transition: color 0.4s ease-in;
     }
     li:hover {
       color: $secondcolor;
-      border-left: 1px solid $secondcolor;
-      border-right: 1px solid $secondcolor;
+      border-bottom: 1px solid $secondcolor;
     }
   .open {
     display: none;
@@ -453,17 +451,31 @@ textarea {
   background-position: center;
   background-size: cover;
   img {
-    float: left;
-    margin: 20px 20px 20px 20px;
-    width: 350px;
+    float: right;
+    margin: 20px 70px 20px 20px;
+    width: 300px;
+    @media screen and (max-width: 770px) {
+    width: 40%;
+    margin: 20px 30px 20px 20px;
+    }
+    @media screen and (max-width: 400px) {
+    width: 70%;
+    margin: 20px 70px 20px 20px;
+    }
   }
   .debathero-vote {
     max-width: 350px;
-    float: left;
+    float: right;
     background-color: $backgroundcolor;
     opacity: 0.75;
     padding: 30px;
-    margin: 50px 0 0 50px;
+    margin: 50px 50px 0 0;
+    @media screen and (max-width: 770px) {
+      width: 35%;
+    }
+    @media screen and (max-width: 400px) {
+      display: none;
+    }
     img {
       width: 20px;
       margin-right: 20px;
@@ -477,6 +489,9 @@ textarea {
 .debat {
   .debatform {
     width: 50%;
+    @media screen and (max-width: 770px) {
+      width: 80%;
+    }
     margin: 0 auto 50px auto;
     .input {
       border: 1px solid #ccc;
@@ -494,6 +509,9 @@ textarea {
     font-size: 2em;
   }
   .debat-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     background-color: white;
     border: 1px solid #ccc;
@@ -502,8 +520,11 @@ textarea {
     width: 50%;
     border-radius: 15px;
     overflow: hidden;
+    @media screen and (max-width: 770px) {
+      width: 80%;
+    }
     .debat-post-content {
-      width: 90%;
+      width: 75%;
       float: left;
       line-height: 1.5;
       h2 {
@@ -518,6 +539,9 @@ textarea {
     }
     .debat-post-points {
       float: right;
+      max-width: 19%;
+      padding-left: 10px;
+
       .debat-post-points-up {
         padding-bottom: 40px;
         h3 {
