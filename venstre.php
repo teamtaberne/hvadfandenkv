@@ -1,6 +1,9 @@
+<?php require_once('db_con.php'); ?>
 <?php include 'include/analytics.php'; ?>
 <?php require_once 'include/cookie.php'; ?>
-
+<?php $polname = ''; ?>
+<?php $party = ''; ?>
+<?php $url = ''; ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,11 +13,41 @@
   </head>
 <body>
   <?php include 'include/nav.php' ?>
+  <?php
+  if (isset($_POST['search'])) {
+  $searchq = $_POST['search'];
+
+
+  $query = mysqli_query($con, "SELECT * FROM politicians WHERE polname LIKE '%" .$searchq. "%' OR party LIKE '%" . $searchq . "%' OR url LIKE '%" . $searchq . "%'") or die(mysqli_error($db));
+  $count = mysqli_num_rows($query);
+  if ($count == 0) {
+    $output = "There was no search results";
+  } else {
+    while($row = mysqli_fetch_array($query)) {
+      $polname = $row['polname'];
+      $party = $row['party'];
+      $url = $row['url'];
+    }
+  }
+}
+?>
+
   <div class="search_1">
-    <div class="col-1-1 mobile-col-1-1">
-      <input type="search" name="Search" value="SØG">
+      <div class="col-1-1 mobile-col-1-1">
+        <form name="search" method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
+            <div class="col-10-12">
+              Søg:  <input type="text" name="search" />
+            </div>
+            <div class="col-2-12">
+              <input type="submit" name="search" value=Search" />
+            </div>
+        </form>
     </div>
-  </div> 
+  </div>
+<?php echo $polname .$party .$url; ?>
+
+
+
 
   <div class="venstrehero">
     <div class="venstrehero-headline">
@@ -72,13 +105,13 @@
           </div>
           <h2> Charmaine McLean</h2>
         </a>
-      </div> 
+      </div>
       <div class="politikere-politiker">
         <a href="#">
           <img src="images/larslykke.jpg">
           <h2> Lars Lykke Rasmussen</h2>
         </a>
-      </div> 
+      </div>
       <div class="politikere-politiker">
         <a href="#">
           <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/camillaf.JPG)">
@@ -87,7 +120,7 @@
           </div>
           <h2> Camilla Voss </h2>
         </a>
-      </div> 
+      </div>
     </div>
     <div class="politikere-right">
       <div class="politikere-politiker">
@@ -95,7 +128,7 @@
           <img src="images/larslykke.jpg">
           <h2> Lars Lykke </h2>
         </a>
-      </div> 
+      </div>
       <div class="politikere-politiker">
         <a href="#">
           <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/tobiasf.JPG)">
@@ -104,14 +137,14 @@
           </div>
           <h2> Tobias Heide </h2>
         </a>
-      </div> 
+      </div>
       <div class="politikere-politiker">
         <a href="#">
           <img src="images/larslykke.jpg">
           <h2> Lars Lykke </h2>
         </a>
-      </div> 
-    </div> 
+      </div>
+    </div>
   </div>
 
   <?php include 'include/footer.php'; ?>

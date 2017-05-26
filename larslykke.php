@@ -11,7 +11,11 @@
 <?php include 'include/nav.php' ?>
 <div class="search_1">
   <div class="col-1-1 mobile-col-1-1">
-    <input type="search" name="Search" value="SØG">
+    <form name="search" method="post" action="<?=$PHP_SELF?>">
+        Seach for: <input type="text" name="find" /> in
+ <input type="hidden" name="searching" value="yes" />
+ <input type="submit" name="search" value="Search" />
+ </form>
   </div>
 </div>
 <div class="sectionhero_2_1">
