@@ -5,7 +5,7 @@
   <head>
     <?php $active = 'stalk' ?>
     <?php include 'include/head.php'; ?>
-    <title>Charmaine McLean | Hvad fanden er kommunalvalg?</title>
+    <title>Tobias Heide | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
   <?php include 'include/nav.php' ?>
@@ -32,23 +32,23 @@
   <div class="politikerhero">
     <div class="hero-content">
       <div class="hero-content-left">
-        <div class="hero-content-image" style="background-image: url(images/charmainef.JPG)">
+        <div class="hero-content-image" style="background-image: url(images/tobiasf.JPG)">
         </div>
       </div>
       <div class="hero-content-right">
         <div class="hero-content-name">
-          <h1>Charmaine McLean</h1>
+          <h1>Tobias Heide</h1>
         </div>
         <div class="hero-content-facts">
           <div class="hero-content-facts-left">
             <table>
               <tr>
                 <td><img src="images/ikoner/alder.png"></td>
-                <td>24 år</td>
+                <td>21 år</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/hjemby.png"></td>
-                <td>Frederiksværk</td>
+                <td>Nykøbing Falster</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/kommune.png"></td>
@@ -60,15 +60,15 @@
             <table>
               <tr>
                 <td><img src="images/ikoner/sparetime.png"></td>
-                <td>Jeg maler</td>
+                <td>Leger klatretøsen</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/funfact.png"></td>
-                <td>Når jeg er fuld laver jeg ballede</td>
+                <td>Tobias elsker dølle-pøller. dank memes og siger aldrig nej til en øl med vennerne </td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/citat.png"></td>
-                <td>Hoved og stat kommune (Andre kalder det Rudersdal kommune)</td>
+                <td>*Peger på Martin Krasnik* Det er ham som der æder lort</td>
               </tr>
             </table>
           </div>
@@ -78,7 +78,7 @@
           <table>
             <tr>
               <td><img class="icon-large" src="images/ikoner/politik.png"></td>
-              <td>Jeg synes dyr skal have det bedre. Er global opvarming så stort et issue? Folkeskolerne er lort - det skal der laves om på!</td>
+              <td>Alle muslimer skal ud af Danmark. Rød politik er for homoseksuelle. Der skal lavere skatter på biler</td>
             </tr>
           </table>
         </div>

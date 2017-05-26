@@ -1,11 +1,10 @@
 <?php include 'include/analytics.php'; ?>
-<?php require_once 'include/cookie.php'; ?>
 
 <!DOCTYPE html>
 <html>
   <head>
     <?php include 'include/head.php'; ?>
-    <title>Seneste Nyt</title>
+    <title>Template | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
 <?php include 'include/nav.php' ?>

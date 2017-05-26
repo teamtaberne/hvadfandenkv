@@ -1,13 +1,12 @@
 
 <?php include 'include/analytics.php'; ?>
-<?php require_once 'include/cookie.php'; ?>
 
 <!DOCTYPE html>
 <html>
   <head>
     <?php $active = 'index' ?>
     <?php include 'include/head.php'; ?>
-    <title>Seneste Nyt</title>
+    <title>Seneste nyt | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
 <?php include 'include/nav.php' ?>

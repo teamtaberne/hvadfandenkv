@@ -1,11 +1,10 @@
 <?php include 'include/analytics.php'; ?>
-<?php require_once 'include/cookie.php'; ?>
 
 <!DOCTYPE html>
 <html>
   <head>
     <?php include 'include/head.php'; ?>
-    <title>Kontakt</title>
+    <title>Kontakt | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
 <?php $active = 'kontakt' ?>

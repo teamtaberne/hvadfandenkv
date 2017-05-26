@@ -1,12 +1,11 @@
 <?php include 'include/analytics.php'; ?>
-<?php require_once 'include/cookie.php'; ?>
 
 <!DOCTYPE html>
 <html>
   <head>
     <?php $active = 'stalk' ?>
     <?php include 'include/head.php'; ?>
-    <title>Venstre</title>
+    <title>Venstre | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
   <?php include 'include/nav.php' ?>
@@ -94,7 +93,7 @@
         </a>
       </div> 
       <div class="politikere-politiker">
-        <a href="#">
+        <a href="camilla.php">
           <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/camillaf.JPG)">
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/camillae.JPG)">
@@ -111,7 +110,7 @@
         </a>
       </div> 
       <div class="politikere-politiker">
-        <a href="#">
+        <a href="tobias.php">
           <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/tobiasf.JPG)">
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/tobiase.JPG)">
