@@ -1,15 +1,41 @@
+
+<?php
+require_once('db_con.php');
+
+if (isset($_POST['submit'])) {
+    $headline = filter_input(INPUT_POST, 'headline');
+    $kommentar = filter_input(INPUT_POST, 'kommentar');
+    $stmt = $con->prepare("INSERT INTO comment (headline,kommentar) VALUES (?,?)");
+    $stmt->bind_param('ss', $headline, $kommentar);
+    $stmt->execute();
+    $stmt->close();
+}
+
+?>
 <?php include 'include/analytics.php'; ?>
-<?php require_once 'include/cookie.php'; ?>
 
 <!DOCTYPE html>
 <html>
   <head>
   	<?php $active = 'debat' ?>
     <?php include 'include/head.php'; ?>
-    <title>Seneste Nyt</title>
+    <title>Debat | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
 <?php include 'include/nav.php' ?>
+
+<div id="skiftkommune" class="box">
+  <div class="box-content">
+    <h2>Skift din kommune</h2>
+    <select id="kommune" name="country">
+      <option value="gentofte">Gentofte</option>
+      <option value="kbh">København</option>
+      <option value="hels">Helsingør</option>
+    </select>
+    <br>
+    <input type="submit" name="submit" value="Vælg" class="close">
+  </div>
+</div>
 
 <div class="debathero">
 	<div class="debathero-img">
@@ -44,74 +70,47 @@
 
 <div class="debat">
 	<h1> EL mener at der er for få hænder i børnehaven - hvad mener du? </h1>
-	<div class="debat-post">
-		<div class="debat-post-content">
-			<h2> Stakkels dem!</h2>
-			<p>Jeg er enig!
-				Puha, det må være hårdt at være pædagog i vore dage. Aldrig har der været så lidt personale til så mange børn.
-			</p>
-		</div>
-		<div class="debat-post-points">
-			<div class="debat-post-points-up">
-				<img src="images/ikoner/greenArrow.svg">
-				<h3>7</h3>
-			</div>
-			<div class="debat-post-points-down">
-				<img src="images/ikoner/redArrow.svg">
-				<h3>1</h3>
-			</div>
-		</div>
-	</div>
-	<div class="debat-post">
-		<div class="debat-post-content">
-			<h2> Stakkels dem!</h2>
-			<p>Jeg er enig!
-				Puha, det må være hårdt at være pædagog i vore dage. Aldrig har der været så lidt personale til så mange børn.
-			</p>
-		</div>
-		<div class="debat-post-points">
-			<div class="debat-post-points-up">
-				<img src="images/ikoner/greenArrow.svg">
-				<h3>7</h3>
-			</div>
-			<div class="debat-post-points-down">
-				<img src="images/ikoner/redArrow.svg">
-				<h3>1</h3>
-			</div>
-		</div>
-	</div>
-	<div class="debat-post">
-		<div class="debat-post-content">
-			<h2> Stakkels dem!</h2>
-			<p>Jeg er enig!
-				Puha, det må være hårdt at være pædagog i vore dage. Aldrig har der været så lidt personale til så mange børn.
-			</p>
-		</div>
-		<div class="debat-post-points">
-			<div class="debat-post-points-up">
-				<img src="images/ikoner/greenArrow.svg">
-				<h3>7</h3>
-			</div>
-			<div class="debat-post-points-down">
-				<img src="images/ikoner/redArrow.svg">
-				<h3>1</h3>
-			</div>
-		</div>
-	</div>
+	<?php
+		$sql = "SELECT id, headline, kommentar FROM comment";
+		$result = $con->query($sql);
+
+		if ($result->num_rows > 0) {
+		    // output data of each row
+		    while ($row = $result->fetch_assoc()) {
+		        echo "<div class='debat-post'>
+		                <div class='debat-post-content'>
+		                    <h2>" . $row['headline'] . "</h2>
+		                    <p>" . $row['kommentar'] . "</p>
+		                </div>
+		                <div class='debat-post-points'>
+							<div class='debat-post-points-up'>
+								<img src='images/ikoner/greenArrow.svg'>
+								<h3>7</h3>
+							</div>
+							<div class='debat-post-points-down'>
+								<img src='images/ikoner/redArrow.svg'>
+								<h3>1</h3>
+							</div>
+						</div>
+		            </div>";
+		    }
+		}
+		$con->close();
+	?>
+	
 	<div class="debatform">
-		<form>
+		<form id="debatform" action="debat.php" method="POST">
 		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input">
 
-		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox"></textarea>
+		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input"></textarea>
 		    <br>
-		    <input type="submit" value="Send" class="button">
+		    <input type="submit" name="submit" value="Send" class="button">
 		</form>
 	</div>
 </div>
 
-
-
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <script src="script.js"></script>
   </body>
 </html>

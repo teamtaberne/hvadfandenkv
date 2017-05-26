@@ -1,5 +1,6 @@
 <?php include 'include/analytics.php'; ?>
 <?php require_once 'include/cookie.php'; ?>
+<?php include 'include/searchfunction.php' ?>
 
 <!DOCTYPE html>
 <html>
@@ -9,10 +10,7 @@
   </head>
 <body>
 <?php include 'include/nav.php' ?>
-<div class="search_1">
-  <div class="col-1-1 mobile-col-1-1">
-    <input type="search" name="Search" value="SØG">
-  </div>
+<?php include 'include/search.php' ?>
 </div>
 <div class="sectionhero_2_1">
   <div class="grid grid-pad profile">

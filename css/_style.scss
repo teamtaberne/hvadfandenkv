@@ -110,7 +110,13 @@ footer {
   height: 400px;
 }
 // end of clearfix
-
+// Søgefunction
+.searchstyle {
+  width: 100%;
+  height: 20px;
+  background-color: #def0ef;
+}
+// søgefunction slut
 // SENESTE NYT / INDEX / SENESTE NYT / INDEX
 
 // SEKTION 1
@@ -769,4 +775,44 @@ textarea {
   }
 }
 
-// DEBAT SLUT
+// SKIFT KOMMUNE
+.box {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  .box-content {
+    background-color: $backgroundcolor;
+    margin: 15% auto;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    h2 {
+      color: black;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  }
+  .close {
+    background-color: $maincolor;
+    color: $secondcolor;
+    border: none;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+  }
+  .close:hover {
+      background-color: $hovercolor;
+      cursor: pointer;
+  }
+}
