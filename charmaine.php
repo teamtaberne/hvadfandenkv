@@ -54,7 +54,7 @@
                 <td>Lavere skatter!</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/citat.png"></td>
+                <td><img src="images/ikoner/citat.png alt="Ikon Citat""></td>
                 <td>Vi gider heller ikke betale for licens!</td>
               </tr>
             </table>
