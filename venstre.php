@@ -4,68 +4,117 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php $active = 'stalk' ?>
     <?php include 'include/head.php'; ?>
-    <title>Seneste Nyt</title>
+    <title>Venstre</title>
   </head>
 <body>
-<?php include 'include/nav.php' ?>
-<div class="sectionhero_2_venstre">
-<div class="grid grid-pad venstre">
-  <div class="col-1-1 mobile-col-1-1">
-    <h1>VENSTRE</h1>
-  </div>
-  <div class="col-1-1 mobile-col-1-1 markesager">
-    <h1>MÆRKESAGER</h1>
-  </div>
-</div>
-<div class="grid grid-pad venstre_1">
-  <div class="col-1-2 mobile-col-1-1  icons">
-    <ul>
-      <li><img src="images/ikoner/ungdom.png" alt="Ungdom"> Su'en skal ned!</li>
-      <li><img src="images/ikoner/beskæftigelse.png" alt="beskæftigelse"> Fuck kontantloftet</li>
-      <li><img src="images/ikoner/miljø.png" alt="Miljø"> Hulk har også følelser</li>
-    </ul>
-  </div>
-  <div class="col-1-2 mobile-col-1-1 icons">
-    <ul>
-      <li><img src="images/ikoner/sundhed2.png" alt=""> Hospitaler er for de svage</li>
-      <li><img src="images/ikoner/økonomi.png" alt=""> Skat er til mænd</li>
-      <li><img src="images/ikoner/kultur.png" alt=""> Gratis tv</li>
-    </ul>
+  <?php include 'include/nav.php' ?>
+  <div class="search_1">
+    <div class="col-1-1 mobile-col-1-1">
+      <input type="search" name="Search" value="SØG">
     </div>
-  </div>
-</div>
-<div class="clearfixsmall">
+  </div> 
 
-</div>
-<div class="polpic">
-  <div class="grid grid-pad">
-<div class="col-1-2 mobile-col-1-1 photo_3">
-  <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
-  <h1>Lars Lykke</h1>
-</div>
-  <div class="col-1-2 mobile-col-1-1 photo_2">
-    <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
-    <h1>Lars Lykke</h1>
-  </div>
-  <div class="col-1-2 mobile-col-1-1 photo">
-    <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
-    <h1>Lars Lykke</h1>
-  </div>
-  <div class="col-1-2 mobile-col-1-1 photo_2">
-    <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
-    <h1>Lars Lykke</h1>
-  </div>
-  <div class="col-1-2 mobile-col-1-1 photo">
-    <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
-    <h1>Lars Lykke</h1>
-  </div>
-  <div class="col-1-2 mobile-col-1-1 photo_2">
-      <a href="larslykke.php"><img src="images/larslykke.jpg" alt=""></a>
-      <h1>Lars Lykke</h1>
-  </div>
+  <div class="venstrehero">
+    <div class="venstrehero-headline">
+      <h1>VENSTRE</h1>
     </div>
+  </div>
+
+  <div class="maerkesager">
+    <div class="maerkesager-headline">
+      <h1> MÆRKESAGER </h1>
+    </div>
+    <div class="maerkesager-items">
+      <div class="maerkesager-items-left">
+        <table>
+          <tr>
+            <td><img src="images/ikoner/ungdom.png"></td>
+            <td>SU'en skal ned</td>
+          </tr>
+          <tr>
+            <td><img src="images/ikoner/beskæftigelse.png"></td>
+            <td>Fuck kontantloftet</td>
+          </tr>
+          <tr>
+            <td><img src="images/ikoner/miljø.png"></td>
+            <td>Vi er aaaaalt for grønne</td>
+          </tr>
+        </table>
+      </div>
+      <div class="maerkesager-items-right">
+        <table>
+          <tr>
+            <td><img src="images/ikoner/sundhed2.png"></td>
+            <td>Behøver vi så mange hospitaler?</td>
+          </tr>
+          <tr>
+            <td><img src="images/ikoner/økonomi.png"></td>
+            <td>Lavere skatter!</td>
+          </tr>
+          <tr>
+            <td><img src="images/ikoner/kultur.png"></td>
+            <td>Vi gider heller ikke betale for licens!</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="politikere">
+    <div class="politikere-left">
+      <div class="politikere-politiker">
+        <a href="charmaine.php">
+          <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/charmainef.JPG)">
+          </div>
+          <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/charmainee.JPG)">
+          </div>
+          <h2> Charmaine McLean</h2>
+        </a>
+      </div> 
+      <div class="politikere-politiker">
+        <a href="#">
+          <img src="images/larslykke.jpg">
+          <h2> Lars Lykke Rasmussen</h2>
+        </a>
+      </div> 
+      <div class="politikere-politiker">
+        <a href="#">
+          <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/camillaf.JPG)">
+          </div>
+          <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/camillae.JPG)">
+          </div>
+          <h2> Camilla Voss </h2>
+        </a>
+      </div> 
+    </div>
+    <div class="politikere-right">
+      <div class="politikere-politiker">
+        <a href="#">
+          <img src="images/larslykke.jpg">
+          <h2> Lars Lykke </h2>
+        </a>
+      </div> 
+      <div class="politikere-politiker">
+        <a href="#">
+          <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/tobiasf.JPG)">
+          </div>
+          <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/tobiase.JPG)">
+          </div>
+          <h2> Tobias Heide </h2>
+        </a>
+      </div> 
+      <div class="politikere-politiker">
+        <a href="#">
+          <img src="images/larslykke.jpg">
+          <h2> Lars Lykke </h2>
+        </a>
+      </div> 
+    </div> 
+  </div>
+
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
-  </body>
+</body>
 </html>

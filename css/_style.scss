@@ -12,8 +12,15 @@ font-family: $font;
 width: 100%;
 height: 100px;
 background-color: $maincolor;
+overflow: hidden;
+  .navigation-left {
+    float: left;
+  }
+  .navigation-right {
+    float: right;
+  }
   .navlogo {
-    width: 30%;
+    height: 80px;
     z-index: 1;
   }
 .navbar {
@@ -33,6 +40,11 @@ background-color: $maincolor;
   margin: 10px;
   padding: 10px;
     }
+  a.active {
+    li {
+      color: $secondcolor;
+    }
+  }
     li:hover {
       color: $secondcolor;
       border-bottom: 1px solid $secondcolor;
@@ -78,6 +90,26 @@ footer {
   background-color: $maincolor;
 }
 // END OF FOOTER
+// clearfix
+.clearfix {
+  width: 100%;
+  height: 300px;
+}
+@media screen and (max-width: 770px) {
+  .clearfixtablet {
+    width: 100%;
+    height: 300px;
+  }
+}
+.clearfixsmall {
+  width: 100%;
+  height: 100px;
+}
+.clearfixlarge {
+  width: 100%;
+  height: 400px;
+}
+// end of clearfix
 
 // SENESTE NYT / INDEX / SENESTE NYT / INDEX
 
@@ -92,6 +124,12 @@ footer {
   img {
     margin: 20px 20px 20px 0px;
     width: 80%;
+    @media screen and (max-width: 770px) {
+      width: 40%;
+    }
+    @media screen and (max-width: 500px) {
+      width: 70%;
+    }
   }
   .facts {
     margin-top: 50px;
@@ -99,6 +137,9 @@ footer {
     background-color: $secondcolor;
     border-radius: 20px;
     height: 200px;
+    @media screen and (max-width: 770px) {
+      height: 100px;
+    }
     h1 {
       margin-top: 20px;
       color: white;
@@ -155,6 +196,9 @@ footer {
   margin-top: 200px;
   width: 100%;
   height: 350px;
+  @media screen and (max-width: 770px) {
+    margin-top: 20px;
+  }
   }
   h2 {
     font-size: 1.2em;
@@ -209,141 +253,256 @@ footer {
   }
 
 
-// SIDE 2 pol-medlemmer side
-.sectionhero_2_venstre {
+// PARTISIDE
+// Hero
+.venstrehero {
   width: 100%;
-  height: 800px;
+  height: 400px;
   background-image: url("../images/venstreblur.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  }
-  .venstre {
-    h1 {
-      font-size: 2em;
-      text-align: center;
-      margin-top: 160px;
-    }
-    .markesager {
-      h1 {
-      text-align: right;
-      margin-right: 200px;
-      }
-    }
-  }
-  .venstre_1 {
-    margin-top: 50px;
-    .icons {
-      li {
-        margin: 30;
-      }
-      img {
-        vertical-align: middle;
-        width: 12%;
-      }
-    }
-  }
-  .polpic {
-    width: 100%;
-    height: 1500px;
-    background-image: url("../images/sidesam.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    .photo_3 {
-    img {
-      border-radius: 250px;
-      margin-top: 80px;
-      margin-left: 15px;
-    }
-    h1 {
-      margin-left: 80px;
-      font-size: 1.5em;
-      margin-top: 10px;
-      margin-bottom: 80px;
-    }
-}
-    .photo {
-    img {
-      border-radius: 250px;
-      margin-top: 80px;
-      margin-left: 15px;
-    }
-    h1 {
-      margin-left: 80px;
-      font-size: 1.5em;
-      margin-top: 10px;
-      margin-bottom: 80px;
-    }
-  }
-  .photo_2 {
-  img {
-    border-radius: 250px;
-    margin-top: 80px;
-    margin-left: 150px;
-  }
   h1 {
-    font-size: 1.5em;
-    margin-left: 230px;
-    margin-top: 10px;
-    margin-bottom: 80px;
+      padding-top: 150px;
+      width: 70%;
+      color: black;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 2em;
+    }
   }
- }
+
+// Mærkesager
+.maerkesager {
+  h1 {
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .maerkesager-items {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px 15%;
+    .maerkesager-items-left {
+      width: 45%;
+      float: left;
+    }
+    .maerkesager-items-right {
+      width: 45%;
+      float: right;
+    }
+    @media screen and (max-width: 400px) {
+      .maerkesager-items-left {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0 0 0;
+      }
+      .maerkesager-items-right {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
+  img {
+    width: 40px;
+  }
+  td {
+    padding: 10px;
+    vertical-align: middle;
+  }
 }
-// - De personlige sider // // - De personlige sider //
-.sectionhero_2_1 {
+
+// Politikere
+.politikere {
+  background-image: url('../images/sidesam.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 1000px;
+  overflow: hidden;
+  margin: 30px auto;
+  text-align: center;
+  padding-top: 20px;
+  .politikere-left {
+    float: left;
+    padding-left: 15%;
+  }
+  .politikere-right {
+    float: right;
+    padding-right: 15%;
+  }
+  .politikere-politiker{
+    padding: 35px 0;
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+      cursor: pointer;
+      h2 {
+        padding-top: 15px;
+      }
+      .politikere-politiker-picture-fun {
+        display: none;
+      }
+      .politikere-politiker-picture {
+        width: 80%;
+        padding-top: 80%;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 100%;
+        margin: 0 auto;
+      }
+    }
+    a:hover {
+      .politikere-politiker-picture-fun {
+        display: block;
+      }
+      .politikere-politiker-picture-serious {
+        display: none;
+      }
+    }
+  }
+  img {
+    width: 80%;
+    border-radius: 100%;
+  }
+  @media screen and (max-width: 839px) {
+    background-image: url(none);
+    .politikere-left {
+      float: none;
+      padding: 5%;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0 0;
+    }
+    .politikere-right {
+      float: none;
+      padding: 5%;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0 0;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    background-image: url(none);
+    .politikere-left {
+      width: 80%;
+    }
+    .politikere-right {
+      width: 80%;
+    }
+  }
+}
+
+
+// POLITIKERSIDE
+// Hero
+.politikerhero {
   width: 100%;
-  height: 1000px;
+  min-height: 600px;
   background-image: url("../images/grey.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  .profile {
-  .profilepic {
-    img {
-    border-radius: 250px;
+  overflow: hidden;
+  .hero-content {
+    padding: 5%;
+    .hero-content-image {
+      width: 100%;
+      padding-top: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+      border-radius: 100%;
     }
-  }
-  .navn {
-    h1 {
-      font-size: 1.5em;
-      margin-left: 30px;
-    }
-  }
-  .icons {
-    li {
-      margin: 30;
-    }
-    img {
-      vertical-align: middle;
-      width: 15%;
-    }
-  }
-  .politiktekst {
-    margin-top: 50px;
-  .icons_1 {
-    img {
-      vertical-align: middle;
+    .hero-content-left{
+      float: left;
       width: 25%;
-      margin-left: 290px;
-    }
-  }
-  p {
-    line-height: 20px;
+      @media screen and (max-width: 400px) {
+        float: none;
+        width: 80%;
+        margin: 0 auto 30px auto;
       }
     }
-    .instafeed {
-      img {
-        width: 50%;
-        display: block;
+    .hero-content-right{
+      margin-left: 60px;
+      float: left;
+      width: 65%;
+      .hero-content-name {
+        h1 {
+          font-size: 2em;
+          padding-bottom: 20px;
+        }
+      }
+      .hero-content-facts {
+        overflow: hidden;
+      }
+      .hero-content-facts-left {
+        float: left;
+        width: 49%;
+      }
+      .hero-content-facts-right {
+        float: right;
+        width: 49%;
+      }
+      .hero-content-text {
+        width: 100%;
+        padding-top: 10px;
+      }
+      @media screen and (max-width: 400px) {
+        float: none;
+        width: 90%;
+        margin: 0 auto 30px auto;
+        h1 {
+          text-align: center;
+        }
+        .hero-content-facts-left {
+        float: none;
+        width: 100%;
+        }
+        .hero-content-facts-right {
+          float: none;
+          width: 100%;
+        }
+        .hero-content-text {
+          img {
+            display: none;
+          }
+        }
       }
     }
+
+    img {
+      width: 40px;
+    }
+    td{
+      vertical-align: middle;
+      padding: 10px 5px;
+      line-height: 1.4;
+    }
+    .icon-large {
+        width: 80px;
+      }
   }
 }
-// - De personlige sider slutter // // - De personlige sider slutter //
-// STALK DIN POLITIKER SLUTTER
 
-// EVENTS // EVENTS // // EVENTS // EVENTS //
+// Instragramfeed
+.instagram {
+  text-align: center;
+  img {
+    width: 70%;
+    padding-bottom: 80px;
+  }
+}
+
+
+
+
+// EVENTS
 .sectionhero_3 {
   width: 100%;
   height: 800px;
@@ -399,7 +558,7 @@ $eventimg: 70%;
     padding: 20px;
     .event-content {
       width: $eventimg;
-      margin: 0 auto;
+      margin: 10px auto;
     }
     .event-content-right {
       float: right;
@@ -497,12 +656,12 @@ textarea {
     margin: 20px 70px 20px 20px;
     width: 300px;
     @media screen and (max-width: 1100px) {
-    width: 34%;
-    margin: 20px 30px 20px 0;
+      width: 34%;
+      margin: 20px 30px 20px 0;
     }
     @media screen and (max-width: 500px) {
-    width: 70%;
-    margin: 20px 70px 20px 20px;
+      width: 70%;
+      margin: 20px 70px 20px 20px;
     }
   }
   .debathero-vote {

@@ -8,6 +8,7 @@
     <title>Kontakt</title>
   </head>
 <body>
+<?php $active = 'kontakt' ?>
 <?php include 'include/nav.php' ?>
 <div class="kontakthero">
 	<div class="kontakthero-headline">

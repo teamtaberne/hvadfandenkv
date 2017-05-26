@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php $active = 'index' ?>
     <?php include 'include/head.php'; ?>
     <title>Seneste Nyt</title>
   </head>
@@ -46,7 +47,7 @@
     </div>
   </div>
 </div>
-<div class="clearfix">
+<div class="clearfixtablet">
 </div>
 <div class="sectionhero_1_1">
 <div class="grid grid-pad">

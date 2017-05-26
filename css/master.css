@@ -259,9 +259,14 @@ body {
 .navigation {
   width: 100%;
   height: 100px;
-  background-color: #009688; }
+  background-color: #009688;
+  overflow: hidden; }
+  .navigation .navigation-left {
+    float: left; }
+  .navigation .navigation-right {
+    float: right; }
   .navigation .navlogo {
-    width: 30%;
+    height: 80px;
     z-index: 1; }
   .navigation .navbar {
     display: inline-flex;
@@ -277,6 +282,8 @@ body {
       color: white;
       margin: 10px;
       padding: 10px; }
+    .navigation .navbar a.active li {
+      color: #FF9100; }
     .navigation .navbar li:hover {
       color: #FF9100;
       border-bottom: 1px solid #FF9100; }
@@ -313,6 +320,23 @@ footer {
   height: 100px;
   background-color: #009688; }
 
+.clearfix {
+  width: 100%;
+  height: 300px; }
+
+@media screen and (max-width: 770px) {
+  .clearfixtablet {
+    width: 100%;
+    height: 300px; } }
+
+.clearfixsmall {
+  width: 100%;
+  height: 100px; }
+
+.clearfixlarge {
+  width: 100%;
+  height: 400px; }
+
 .sectionhero_1 {
   width: 100%;
   height: 800px;
@@ -323,12 +347,21 @@ footer {
   .sectionhero_1 img {
     margin: 20px 20px 20px 0px;
     width: 80%; }
+    @media screen and (max-width: 770px) {
+      .sectionhero_1 img {
+        width: 40%; } }
+    @media screen and (max-width: 500px) {
+      .sectionhero_1 img {
+        width: 70%; } }
   .sectionhero_1 .facts {
     margin-top: 50px;
     padding: 10px;
     background-color: #FF9100;
     border-radius: 20px;
     height: 200px; }
+    @media screen and (max-width: 770px) {
+      .sectionhero_1 .facts {
+        height: 100px; } }
     .sectionhero_1 .facts h1 {
       margin-top: 20px;
       color: white;
@@ -372,6 +405,9 @@ footer {
   margin-top: 200px;
   width: 100%;
   height: 350px; }
+  @media screen and (max-width: 770px) {
+    .sektion_2billede img {
+      margin-top: 20px; } }
 
 .sektion_2billede h2 {
   font-size: 1.2em;
@@ -412,94 +448,192 @@ footer {
 .pollogos_2 {
   margin-top: 100px; }
 
-.sectionhero_2_venstre {
+.venstrehero {
   width: 100%;
-  height: 800px;
+  height: 400px;
   background-image: url("../images/venstreblur.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  .venstrehero h1 {
+    padding-top: 150px;
+    width: 70%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em; }
 
-.venstre h1 {
+.maerkesager h1 {
   font-size: 2em;
-  text-align: center;
-  margin-top: 160px; }
+  margin: 0 auto;
+  text-align: center; }
 
-.venstre .markesager h1 {
-  text-align: right;
-  margin-right: 200px; }
+.maerkesager .maerkesager-items {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px 15%; }
+  .maerkesager .maerkesager-items .maerkesager-items-left {
+    width: 45%;
+    float: left; }
+  .maerkesager .maerkesager-items .maerkesager-items-right {
+    width: 45%;
+    float: right; }
+  @media screen and (max-width: 400px) {
+    .maerkesager .maerkesager-items .maerkesager-items-left {
+      width: 95%;
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px 0 0 0; }
+    .maerkesager .maerkesager-items .maerkesager-items-right {
+      width: 95%;
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0; } }
 
-.venstre_1 {
-  margin-top: 50px; }
-  .venstre_1 .icons li {
-    margin: 30; }
-  .venstre_1 .icons img {
-    vertical-align: middle;
-    width: 12%; }
+.maerkesager img {
+  width: 40px; }
 
-.polpic {
-  width: 100%;
-  height: 1500px;
+.maerkesager td {
+  padding: 10px;
+  vertical-align: middle; }
+
+.politikere {
   background-image: url("../images/sidesam.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
-  .polpic .photo_3 img {
-    border-radius: 250px;
-    margin-top: 80px;
-    margin-left: 15px; }
-  .polpic .photo_3 h1 {
-    margin-left: 80px;
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 80px; }
-  .polpic .photo img {
-    border-radius: 250px;
-    margin-top: 80px;
-    margin-left: 15px; }
-  .polpic .photo h1 {
-    margin-left: 80px;
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 80px; }
-  .polpic .photo_2 img {
-    border-radius: 250px;
-    margin-top: 80px;
-    margin-left: 150px; }
-  .polpic .photo_2 h1 {
-    font-size: 1.5em;
-    margin-left: 230px;
-    margin-top: 10px;
-    margin-bottom: 80px; }
+  background-size: 100% 1000px;
+  overflow: hidden;
+  margin: 30px auto;
+  text-align: center;
+  padding-top: 20px; }
+  .politikere .politikere-left {
+    float: left;
+    padding-left: 15%; }
+  .politikere .politikere-right {
+    float: right;
+    padding-right: 15%; }
+  .politikere .politikere-politiker {
+    padding: 35px 0; }
+    .politikere .politikere-politiker a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+      cursor: pointer; }
+      .politikere .politikere-politiker a h2 {
+        padding-top: 15px; }
+      .politikere .politikere-politiker a .politikere-politiker-picture-fun {
+        display: none; }
+      .politikere .politikere-politiker a .politikere-politiker-picture {
+        width: 80%;
+        padding-top: 80%;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 100%;
+        margin: 0 auto; }
+    .politikere .politikere-politiker a:hover .politikere-politiker-picture-fun {
+      display: block; }
+    .politikere .politikere-politiker a:hover .politikere-politiker-picture-serious {
+      display: none; }
+  .politikere img {
+    width: 80%;
+    border-radius: 100%; }
+  @media screen and (max-width: 839px) {
+    .politikere {
+      background-image: url(none); }
+      .politikere .politikere-left {
+        float: none;
+        padding: 5%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 0; }
+      .politikere .politikere-right {
+        float: none;
+        padding: 5%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 0; } }
+  @media screen and (max-width: 400px) {
+    .politikere {
+      background-image: url(none); }
+      .politikere .politikere-left {
+        width: 80%; }
+      .politikere .politikere-right {
+        width: 80%; } }
 
-.sectionhero_2_1 {
+.politikerhero {
   width: 100%;
-  height: 1000px;
+  min-height: 600px;
   background-image: url("../images/grey.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
-  .sectionhero_2_1 .profile .profilepic img {
-    border-radius: 250px; }
-  .sectionhero_2_1 .profile .navn h1 {
-    font-size: 1.5em;
-    margin-left: 30px; }
-  .sectionhero_2_1 .profile .icons li {
-    margin: 30; }
-  .sectionhero_2_1 .profile .icons img {
-    vertical-align: middle;
-    width: 15%; }
-  .sectionhero_2_1 .profile .politiktekst {
-    margin-top: 50px; }
-    .sectionhero_2_1 .profile .politiktekst .icons_1 img {
+  background-size: cover;
+  overflow: hidden; }
+  .politikerhero .hero-content {
+    padding: 5%; }
+    .politikerhero .hero-content .hero-content-image {
+      width: 100%;
+      padding-top: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+      border-radius: 100%; }
+    .politikerhero .hero-content .hero-content-left {
+      float: left;
+      width: 25%; }
+      @media screen and (max-width: 400px) {
+        .politikerhero .hero-content .hero-content-left {
+          float: none;
+          width: 80%;
+          margin: 0 auto 30px auto; } }
+    .politikerhero .hero-content .hero-content-right {
+      margin-left: 60px;
+      float: left;
+      width: 65%; }
+      .politikerhero .hero-content .hero-content-right .hero-content-name h1 {
+        font-size: 2em;
+        padding-bottom: 20px; }
+      .politikerhero .hero-content .hero-content-right .hero-content-facts {
+        overflow: hidden; }
+      .politikerhero .hero-content .hero-content-right .hero-content-facts-left {
+        float: left;
+        width: 49%; }
+      .politikerhero .hero-content .hero-content-right .hero-content-facts-right {
+        float: right;
+        width: 49%; }
+      .politikerhero .hero-content .hero-content-right .hero-content-text {
+        width: 100%;
+        padding-top: 10px; }
+      @media screen and (max-width: 400px) {
+        .politikerhero .hero-content .hero-content-right {
+          float: none;
+          width: 90%;
+          margin: 0 auto 30px auto; }
+          .politikerhero .hero-content .hero-content-right h1 {
+            text-align: center; }
+          .politikerhero .hero-content .hero-content-right .hero-content-facts-left {
+            float: none;
+            width: 100%; }
+          .politikerhero .hero-content .hero-content-right .hero-content-facts-right {
+            float: none;
+            width: 100%; }
+          .politikerhero .hero-content .hero-content-right .hero-content-text img {
+            display: none; } }
+    .politikerhero .hero-content img {
+      width: 40px; }
+    .politikerhero .hero-content td {
       vertical-align: middle;
-      width: 25%;
-      margin-left: 290px; }
-    .sectionhero_2_1 .profile .politiktekst p {
-      line-height: 20px; }
-  .sectionhero_2_1 .profile .instafeed img {
-    width: 50%;
-    display: block; }
+      padding: 10px 5px;
+      line-height: 1.4; }
+    .politikerhero .hero-content .icon-large {
+      width: 80px; }
+
+.instagram {
+  text-align: center; }
+  .instagram img {
+    width: 70%;
+    padding-bottom: 80px; }
 
 .sectionhero_3 {
   width: 100%;
@@ -546,7 +680,7 @@ footer {
     padding: 20px; }
     .live_background .events_2 .event-content {
       width: 70%;
-      margin: 0 auto; }
+      margin: 10px auto; }
     .live_background .events_2 .event-content-right {
       float: right; }
     .live_background .events_2 .event-content-left {
@@ -708,13 +842,11 @@ textarea {
         margin-right: 10px;
         float: left; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1030px) {
   .navigation {
     width: 100%;
     height: 100px;
     background-color: #009688; }
-    .navigation .navlogo {
-      width: 50%; }
     .navigation .navbar {
       font-size: 3em;
       margin: 0;
@@ -726,18 +858,11 @@ textarea {
         width: 10%;
         display: none; }
       .navigation .navbar .open {
-        display: block; }
+        display: block; } }
+
+@media screen and (max-width: 500px) {
   .sectionhero_1 img {
     margin: 0px 0px 0px 0px; }
-  .clearfix {
-    width: 100%;
-    height: 300px; }
-  .clearfixsmall {
-    width: 100%;
-    height: 100px; }
-  .clearfixlarge {
-    width: 100%;
-    height: 400px; }
   .seneste_tekst {
     line-height: 20px;
     margin-top: 10px; }
@@ -747,54 +872,14 @@ textarea {
       margin-top: 10px; }
   .sektion_2billede img {
     margin-top: 0px;
-    margin: 30px; }
-  .sektion_2billede h1 {
+    margin: 30px;
+    width: 90%;
+    height: 320px; }
+  .sektion_2billede h2 {
     margin: 10px 30px 30px 30px; }
   .sektion_2billede p {
     line-height: 20px;
     margin: 10px 30px 30px 30px; }
-  .venstre h1 {
-    font-size: 2em;
-    text-align: center;
-    margin-top: 180px; }
-  .venstre .markesager h1 {
-    text-align: center;
-    margin-right: 0px; }
-  .venstre_1 {
-    margin-top: 0px; }
-    .venstre_1 .icons li {
-      margin: 30; }
-    .venstre_1 .icons img {
-      vertical-align: middle;
-      width: 20%; }
-  .polpic {
-    background-image: url(none); }
-    .polpic .photo_3 img {
-      margin-top: 180px;
-      margin-left: 35px; }
-    .polpic .photo_3 h1 {
-      margin-top: 10px;
-      margin-left: 125px;
-      font-size: 1.5em;
-      margin-bottom: 20px; }
-    .polpic .photo img {
-      border-radius: 250px;
-      margin-top: 0px;
-      margin-left: 35px; }
-    .polpic .photo h1 {
-      margin-top: 10px;
-      margin-left: 125px;
-      font-size: 1.5em;
-      margin-bottom: 20px; }
-    .polpic .photo_2 img {
-      border-radius: 250px;
-      margin-top: 0px;
-      margin-left: 35px; }
-    .polpic .photo_2 h1 {
-      margin-top: 10px;
-      font-size: 1.5em;
-      margin-left: 125px;
-      margin-bottom: 20px; }
   .sectionhero_2_1 .profile .politiktekst {
     margin-top: 50px; }
     .sectionhero_2_1 .profile .politiktekst .icons_1 img {

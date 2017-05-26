@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php $active = 'events' ?>
     <?php include 'include/head.php'; ?>
     <title>Seneste Nyt</title>
   </head>
