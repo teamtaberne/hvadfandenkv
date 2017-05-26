@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 19, 2017 at 08:46 AM
+-- Generation Time: May 26, 2017 at 07:14 AM
 -- Server version: 5.6.34-log
 -- PHP Version: 7.0.13
 
@@ -28,7 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `comment` (
   `id` int(11) NOT NULL COMMENT 'primary key',
-  `comment` text NOT NULL COMMENT 'comment'
+  `headline` varchar(255) NOT NULL COMMENT 'Overskrift',
+  `kommentar` text NOT NULL COMMENT 'comment'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
