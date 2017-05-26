@@ -5,7 +5,7 @@
   <head>
     <?php $active = 'stalk' ?>
     <?php include 'include/head.php'; ?>
-    <title>Charmaine McLean | Hvad fanden er kommunalvalg?</title>
+    <title>Camilla Voss | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
   <?php include 'include/nav.php' ?>
@@ -32,23 +32,23 @@
   <div class="politikerhero">
     <div class="hero-content">
       <div class="hero-content-left">
-        <div class="hero-content-image" style="background-image: url(images/charmainef.JPG)">
+        <div class="hero-content-image" style="background-image: url(images/camillaf.JPG)">
         </div>
       </div>
       <div class="hero-content-right">
         <div class="hero-content-name">
-          <h1>Charmaine McLean</h1>
+          <h1>Camilla Voss</h1>
         </div>
         <div class="hero-content-facts">
           <div class="hero-content-facts-left">
             <table>
               <tr>
                 <td><img src="images/ikoner/alder.png"></td>
-                <td>24 år</td>
+                <td>22 år</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/hjemby.png"></td>
-                <td>Frederiksværk</td>
+                <td>Helsingør</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/kommune.png"></td>
@@ -60,15 +60,15 @@
             <table>
               <tr>
                 <td><img src="images/ikoner/sparetime.png"></td>
-                <td>Jeg maler</td>
+                <td>Jeg leger med Hugo hunden</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/funfact.png"></td>
-                <td>Når jeg er fuld laver jeg ballede</td>
+                <td>Camilla elsker Ikea på lige fod med Simpson, og er et kæmpe hyggedyr til hverdag</td>
               </tr>
               <tr>
                 <td><img src="images/ikoner/citat.png"></td>
-                <td>Hoved og stat kommune (Andre kalder det Rudersdal kommune)</td>
+                <td>Alt hvad der kommer ud af hendes mund, bør censureres</td>
               </tr>
             </table>
           </div>
@@ -78,7 +78,7 @@
           <table>
             <tr>
               <td><img class="icon-large" src="images/ikoner/politik.png"></td>
-              <td>Jeg synes dyr skal have det bedre. Er global opvarming så stort et issue? Folkeskolerne er lort - det skal der laves om på!</td>
+              <td>Jeg synes det er forkert at blive tvunget til at betale licens. Højere friværdi før vi skal betale skat - det giver ingen mening at betale skat af SU. Mere fokus på at forbedre byen og gaderne.</td>
             </tr>
           </table>
         </div>

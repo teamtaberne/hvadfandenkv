@@ -1,18 +1,23 @@
 <?php require_once('db_con.php'); ?>
 <?php include 'include/analytics.php'; ?>
+<<<<<<< HEAD
 <?php require_once 'include/cookie.php'; ?>
 <?php $polname = ''; ?>
 <?php $party = ''; ?>
 <?php $url = ''; ?>
+=======
+
+>>>>>>> afb0653aa9775b33f5c4efcee32ed5153d20289e
 <!DOCTYPE html>
 <html>
   <head>
     <?php $active = 'stalk' ?>
     <?php include 'include/head.php'; ?>
-    <title>Venstre</title>
+    <title>Venstre | Hvad fanden er kommunalvalg?</title>
   </head>
 <body>
   <?php include 'include/nav.php' ?>
+<<<<<<< HEAD
   <?php
   if (isset($_POST['search'])) {
   $searchq = $_POST['search'];
@@ -31,6 +36,21 @@
   }
 }
 ?>
+=======
+
+  <div id="skiftkommune" class="box">
+    <div class="box-content">
+      <h2>Skift din kommune</h2>
+      <select id="kommune" name="country">
+        <option value="gentofte">Gentofte</option>
+        <option value="kbh">København</option>
+        <option value="hels">Helsingør</option>
+      </select>
+      <br>
+      <input type="submit" name="submit" value="Vælg" class="close">
+    </div>
+  </div>
+>>>>>>> afb0653aa9775b33f5c4efcee32ed5153d20289e
 
   <div class="search_1">
       <div class="col-1-1 mobile-col-1-1">
@@ -113,7 +133,7 @@
         </a>
       </div>
       <div class="politikere-politiker">
-        <a href="#">
+        <a href="camilla.php">
           <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/camillaf.JPG)">
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/camillae.JPG)">
@@ -130,7 +150,7 @@
         </a>
       </div>
       <div class="politikere-politiker">
-        <a href="#">
+        <a href="tobias.php">
           <div class="politikere-politiker-picture politikere-politiker-picture-serious" style="background-image: url(images/tobiasf.JPG)">
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/tobiase.JPG)">
@@ -140,8 +160,9 @@
       </div>
       <div class="politikere-politiker">
         <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+          <div class="politikere-politiker-picture" style="background-image: url(images/louise.jpeg)">
+          </div>
+          <h2> Louise Husted Feilberg </h2>
         </a>
       </div>
     </div>
@@ -149,5 +170,6 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <script src="script.js"></script>
 </body>
 </html>
