@@ -120,8 +120,9 @@
       </div> 
       <div class="politikere-politiker">
         <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+          <div class="politikere-politiker-picture" style="background-image: url(images/louise.jpeg)">
+          </div>
+          <h2> Louise Husted Feilberg </h2>
         </a>
       </div> 
     </div> 
