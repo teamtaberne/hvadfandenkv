@@ -46,51 +46,51 @@
       <img src="images/jatak.jpg" alt="Heide Milo">
       <div class="event-content">
         <div class="event-content-right">
-          <h2>Heide Milo siger:</h2>
-          <p>Busstopsteder skal fjernes</p>
+          <h2>Mød Heide Milo</h2>
+          <p>Hun er tough og klar til at vinde!</p>
         </div>
         <div class="event-content-left">
           <h2>6.</h2>
-          <p>maj</p>
+          <p>juni</p>
         </div>
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/jatak.jpg" alt="Heide Milo">
+      <img src="images/kino.JPG" alt="Heide Milo">
       <div class="event-content">
         <div class="event-content-right">
-          <h2>Heide Milo siger:</h2>
-          <p>Busstopsteder skal fjernes</p>
+          <h2>Meet 'n' greet</h2>
+          <p>Mød de lokale politikere i Gentofte Kino</p>
         </div>
         <div class="event-content-left">
-          <h2>6.</h2>
-          <p>maj</p>
+          <h2>12.</h2>
+          <p>juni</p>
         </div>
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/jatak.jpg" alt="Heide Milo">
+      <img src="images/hf.JPG" alt="Heide Milo">
       <div class="event-content">
         <div class="event-content-right">
-          <h2>Heide Milo siger:</h2>
-          <p>Busstopsteder skal fjernes</p>
+          <h2>Besøg på HF</h2>
+          <p>De Konservative besøger skolen</p>
         </div>
         <div class="event-content-left">
-          <h2>6.</h2>
-          <p>maj</p>
+          <h2>24.</h2>
+          <p>juni</p>
         </div>
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/jatak.jpg" alt="Heide Milo">
+      <img src="images/emmerys.JPG" alt="Heide Milo">
       <div class="event-content">
         <div class="event-content-right">
-          <h2>Heide Milo siger:</h2>
-          <p>Busstopsteder skal fjernes</p>
+          <h2>Gratis kaffe</h2>
+          <p>Hos Emmerys til alle der har stemt</p>
         </div>
         <div class="event-content-left">
-          <h2>6.</h2>
-          <p>maj</p>
+          <h2>12.</h2>
+          <p>november</p>
         </div>
       </div>
     </div>
