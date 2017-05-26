@@ -1,3 +1,17 @@
+
+<?php
+require_once('db_con.php');
+
+if (isset($_POST['submit'])) {
+    $headline = filter_input(INPUT_POST, 'headline');
+    $kommentar = filter_input(INPUT_POST, 'kommentar');
+    $stmt = $con->prepare("INSERT INTO postit (headline,kommentar) VALUES (?,?)");
+    $stmt->bind_param('ss', $headline, $kommentar);
+    $stmt->execute();
+    $stmt->close();
+}
+
+?>
 <?php include 'include/analytics.php'; ?>
 <?php require_once 'include/cookie.php'; ?>
 
