@@ -25,6 +25,19 @@ if (isset($_POST['submit'])) {
 <body>
 <?php include 'include/nav.php' ?>
 
+<div id="skiftkommune" class="box">
+  <div class="box-content">
+    <h2>Skift din kommune</h2>
+    <select id="kommune" name="country">
+      <option value="gentofte">Gentofte</option>
+      <option value="kbh">København</option>
+      <option value="hels">Helsingør</option>
+    </select>
+    <br>
+    <input type="submit" name="submit" value="Vælg" class="close">
+  </div>
+</div>
+
 <div class="debathero">
 	<div class="debathero-img">
 		<img src="images/mening1x.png">
@@ -99,5 +112,6 @@ if (isset($_POST['submit'])) {
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <script src="script.js"></script>
   </body>
 </html>
