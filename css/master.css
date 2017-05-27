@@ -306,12 +306,11 @@ body {
     font-size: 1em;
     color: white;
     display: block; }
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px; }
+  .sidenav li a.active {
+    color: #FF9100; }
+  .sidenav a:hover {
+    color: #FF9100;
+    border: 1px solid #FF9100; }
 
 footer {
   bottom: 0;

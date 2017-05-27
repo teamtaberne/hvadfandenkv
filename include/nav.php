@@ -17,11 +17,11 @@
 
 <div class="sidenav" id="sidenav">
   <ul>
-  <li><a href="index.php">Seneste nyt</a></li>
-  <li><a href="stalk.php">Stalk din politiker</a></li>
-  <li><a href="events.php">Events</a></li>
-  <li><a href="debat.php">Debat</a></li>
-  <li><a href="kontakt.php">Kontakt Os</a></li>
+  <li><a href="index.php" class="<?= $active == 'index' ? 'active' : '' ?>">Seneste nyt</a></li>
+  <li><a href="stalk.php" class="<?= $active == 'stalk' ? 'active' : '' ?>">Stalk din politiker</a></li>
+  <li><a href="events.php" class="<?= $active == 'events' ? 'active' : '' ?>">Events</a></li>
+  <li><a href="debat.php" class="<?= $active == 'debat' ? 'active' : '' ?>">Debat</a></li>
+  <li><a href="kontakt.php" class="<?= $active == 'kontakt' ? 'active' : '' ?>">Kontakt Os</a></li>
   <li><a href="#">Skift kommune</a></li>
   </ul>
 </div>
@@ -32,16 +32,15 @@
   crossorigin="anonymous">
 </script>
 <script type="text/javascript">
-$(function(){
-    $('#opens').on('click', function(){
-        if( $('#sidenav').is(':visible') ) {
-            $('#sidenav').animate({ 'width': '0px' }, 'slow', function(){
-                $('#sidenav').hide();
-            });
+$(window).on('load', function(){
+    var toggle = false;
+    $('#opens').click(function() {
+        toggle = !toggle;
+        if(toggle){
+            $('#sidenav').animate({width: 200});
         }
-        else if( $('#sidenav').is(':hidden') ) {
-            $('#sidenav').show();
-            $('#sidenav').animate({ 'width': '250px' }, 'fast');
+        else{
+            $('#sidenav').animate({width: 0});
         }
     });
 });
