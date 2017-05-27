@@ -12,7 +12,6 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
-<?php include 'include/analytics.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -39,29 +38,29 @@ if (isset($_POST['submit'])) {
 
 <div class="debathero">
 	<div class="debathero-img">
-		<img src="images/mening1x.png">
+		<img src="images/mening1x.png" alt="Kommunalvalg - Meningsmåling">
 	</div>
 	<div class="debathero-vote">
 		<h2>EL mener at der er for få hænder i børnehaven - hvad mener du?</h2>
 		<table>
 		  <tr>
-		    <td><img src="images/ikoner/A.svg"></td>
+		    <td><img src="images/ikoner/A.svg" alt="Kommunalvalg - A"></td>
 		    <td>Meget enig</td>
 		  </tr>
 		  <tr>
-		    <td><img src="images/ikoner/B.svg"></td>
+		    <td><img src="images/ikoner/B.svg" alt="Kommunalvalg - B"></td>
 		    <td>Enig</td>
 		  </tr>
 		  <tr>
-		    <td><img src="images/ikoner/C.svg"></td>
+		    <td><img src="images/ikoner/C.svg" alt="Kommunalvalg - C"></td>
 		    <td>Ved ikke</td>
 		  </tr>
 		  <tr>
-		    <td><img src="images/ikoner/D.svg"></td>
+		    <td><img src="images/ikoner/D.svg" alt="Kommunalvalg - D"></td>
 		    <td>Uenig</td>
 		  </tr>
 		  <tr>
-		    <td><img src="images/ikoner/E.svg"></td>
+		    <td><img src="images/ikoner/E.svg" alt="Kommunalvalg - E"></td>
 		    <td>Meget uenig</td>
 		  </tr>
 		</table>
@@ -84,11 +83,11 @@ if (isset($_POST['submit'])) {
 		                </div>
 		                <div class='debat-post-points'>
 							<div class='debat-post-points-up'>
-								<img src='images/ikoner/greenArrow.svg'>
+								<img src='images/ikoner/greenArrow.svg' alt='Kommunalvalg - Grøn pil'>
 								<h3>7</h3>
 							</div>
 							<div class='debat-post-points-down'>
-								<img src='images/ikoner/redArrow.svg'>
+								<img src='images/ikoner/redArrow.svg' alt='Kommunalvalg - Rød pil'>
 								<h3>1</h3>
 							</div>
 						</div>
@@ -111,6 +110,7 @@ if (isset($_POST['submit'])) {
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
   </body>
 </html>

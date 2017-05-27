@@ -1,5 +1,3 @@
-<?php include 'include/analytics.php'; ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,26 +22,27 @@
 
   <div class="sectionhero_3">
     <div class="grid grid-pad">
-    <div class="livestream">
-    <div class="col-1-1 live_1 mobile-col-1-1">
-      <h1>FIND ALLE KOMMENDE EVENTS HER</h1>
-    </div>
-    <div class="col-1-2 live_2 mobile-col-1-1">
-      <img src="images/livestream.png" alt="livestream-dansk-politk">
-    </div>
-    <div class="col-1-2 live_3 mobile-col-1-1">
-      <h1>LIVE: Venstre holder pressemøde</h1>
-      <p>BRØDTEKST</p>
+      <div class="livestream">
+        <div class="col-1-1 live_1 mobile-col-1-1">
+          <h1>FIND ALLE KOMMENDE EVENTS HER</h1>
+        </div>
+        <div class="col-1-2 live_2 mobile-col-1-1">
+          <img src="images/livestream.png" alt="Kommunalvalg - Livestream">
+        </div>
+        <div class="col-1-2 live_3 mobile-col-1-1">
+          <h1>LIVE: Venstre holder pressemøde</h1>
+          <p>BRØDTEKST</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 <div class="live_background">
   <div class="grid grid-pad">
     <div class="col-1-1 mobile-col-1-1 events_1">
       <h1>Kommende Events</h1>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/jatak.jpg" alt="Heide Milo">
+      <img src="images/jatak.jpg" alt="Kommunalvalg - Heide Milo">
       <div class="event-content">
         <div class="event-content-right">
           <h2>Mød Heide Milo</h2>
@@ -56,7 +55,7 @@
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/kino.JPG" alt="Heide Milo">
+      <img src="images/kino.JPG" alt="Kommunalvalg - Gentofte Kino">
       <div class="event-content">
         <div class="event-content-right">
           <h2>Meet 'n' greet</h2>
@@ -69,7 +68,7 @@
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/hf.JPG" alt="Heide Milo">
+      <img src="images/hf.JPG" alt="Kommunalvalg - Gentofte HF">
       <div class="event-content">
         <div class="event-content-right">
           <h2>Besøg på HF</h2>
@@ -82,7 +81,7 @@
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1 events_2">
-      <img src="images/emmerys.JPG" alt="Heide Milo">
+      <img src="images/emmerys.JPG" alt="Kommunalvalg - Emmerys">
       <div class="event-content">
         <div class="event-content-right">
           <h2>Gratis kaffe</h2>
@@ -99,6 +98,7 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
   </body>
 </html>

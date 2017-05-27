@@ -1,6 +1,4 @@
 
-<?php include 'include/analytics.php'; ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,7 +25,7 @@
 <div class="sectionhero_1">
   <div class="grid grid-pad">
     <div class="col-1-2 mobile-col-1-1">
-      <img src="images/logo.png" alt="Logo">
+      <img src="images/logo.png" alt="Kommunalvalg - Hvad fanden er kommunalvalg?">
       <div class="facts">
         <h1>SLADDER KASSEN</h1>
         <p>At thai-kvinde-glade Ole Wedel blev valgt ind i Halsnæs Kommune i 2013</p>
@@ -36,7 +34,7 @@
     <div class="col-1-2 mobile-col-1-1">
         <div class="maaling">
           <div class="col-1-1">
-            <img src="images/mening1x.png" alt="Meningsmåling">
+            <img src="images/mening1x.png" alt="Kommunalvalg - Meningsmåling">
           </div>
           <div class="col-1-2">
             <h2>EL mener at der er for få hænder i børnehaven - hvad mener du?</h2>
@@ -75,7 +73,7 @@
   </div>
   <div class="col-1-2 mobile-col-1-1">
     <section class="sektion_2billede">
-      <img src="images/senestenyt3.jpg" alt="Fyld">
+      <img src="images/senestenyt3.jpg" alt="Kommunalvalg - Test dig selv">
       <h2>TEST DIG SELV</h2>
       <p>Hvilken lokalpolitiker ligner du mest?<br>Og her taler vi ikke om politiske holdninger - næn ej her
         tænker vi på personligheden</p>
@@ -87,18 +85,9 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
   <script src="script.js"></script>
+  <?php include 'include/analytics.php'; ?>
   </body>
 </html>

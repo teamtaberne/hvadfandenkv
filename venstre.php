@@ -1,6 +1,3 @@
-<?php include 'include/analytics.php'; ?>
-<?php require_once 'include/cookie.php'; ?>
-<?php include 'include/searchfunction.php' ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -22,7 +19,7 @@
       <input type="submit" name="submit" value="Vælg" class="close">
     </div>
   </div>
-
+  <?php include 'include/searchfunction.php' ?>
   <?php include 'include/search.php' ?>
 
   <div class="path">
@@ -50,15 +47,15 @@
       <div class="maerkesager-items-left">
         <table>
           <tr>
-            <td><img src="images/ikoner/ungdom.png"></td>
+            <td><img src="images/ikoner/ungdom.png" alt="Kommunalvalg - Ungdom"></td>
             <td>SU'en skal ned</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/beskæftigelse.png"></td>
+            <td><img src="images/ikoner/beskæftigelse.png" alt="Kommunalvalg - Beskæftigelse"></td>
             <td>Fuck kontantloftet</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/miljø.png"></td>
+            <td><img src="images/ikoner/miljø.png" alt="Kommunalvalg - Miljø"></td>
             <td>Vi er aaaaalt for grønne</td>
           </tr>
         </table>
@@ -66,15 +63,15 @@
       <div class="maerkesager-items-right">
         <table>
           <tr>
-            <td><img src="images/ikoner/sundhed2.png"></td>
+            <td><img src="images/ikoner/sundhed2.png" alt="Kommunalvalg - Sundhed"></td>
             <td>Behøver vi så mange hospitaler?</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/økonomi.png"></td>
+            <td><img src="images/ikoner/økonomi.png" alt="Kommunalvalg - Økonomi"></td>
             <td>Lavere skatter!</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/kultur.png"></td>
+            <td><img src="images/ikoner/kultur.png" alt="Kommunalvalg - Kultur"></td>
             <td>Vi gider heller ikke betale for licens!</td>
           </tr>
         </table>
@@ -95,8 +92,9 @@
       </div>
       <div class="politikere-politiker">
         <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke Rasmussen</h2>
+          <div class="politikere-politiker-picture" style="background-image: url(images/pia.jpg)">
+          </div>
+          <h2> Pia Loft </h2>
         </a>
       </div>
       <div class="politikere-politiker">
@@ -112,8 +110,9 @@
     <div class="politikere-right">
       <div class="politikere-politiker">
         <a href="#">
-          <img src="images/larslykke.jpg">
-          <h2> Lars Lykke </h2>
+          <div class="politikere-politiker-picture" style="background-image: url(images/scm.jpg)">
+          </div>
+          <h2> Søren Michaelsen </h2>
         </a>
       </div>
       <div class="politikere-politiker">
@@ -137,6 +136,7 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
 </body>
 </html>

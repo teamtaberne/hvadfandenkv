@@ -1,5 +1,3 @@
-<?php include 'include/analytics.php'; ?>
-<?php include 'include/searchfunction.php' ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,27 +21,28 @@
   </div>
 </div>
 
+<?php include 'include/searchfunction.php' ?>
 <?php include 'include/search.php' ?>
 
   <div class="sectionhero_2">
     <div class="grid grid-pad pollogos">
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/venstre.jpg" alt="Venstre logo"></a>
+        <a href="venstre.php"><img src="images/pollogos/venstre.jpg" alt="Kommunalvalg - Venstre"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/alter.png" alt="Venstre logo"></a>
+        <a href="#"><img src="images/pollogos/alter.png" alt="Kommunalvalg - Alternativet"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/SF.jpg" alt="Venstre logo"></a>
+        <a href="#"><img src="images/pollogos/SF.jpg" alt="Kommunalvalg - SF"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/Ø.jpg" alt="Venstre logo"></a>
+        <a href="#"><img src="images/pollogos/Ø.jpg" alt="Kommunalvalg - Enhedslisten"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/LA.jpg" alt="Venstre logo"></a>
+        <a href="#"><img src="images/pollogos/LA.jpg" alt="Liberal Alliance"></a>
       </div>
       <div class="col-1-2 mobile-col-1-1 pollogo">
-        <a href="venstre.php"><img src="images/pollogos/DF.jpg" alt="Venstre logo"></a>
+        <a href="#"><img src="images/pollogos/DF.jpg" alt="Kommunalvalg - DF"></a>
     </div>
     </div>
   </div>
@@ -58,6 +57,7 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
   </body>
 </html>

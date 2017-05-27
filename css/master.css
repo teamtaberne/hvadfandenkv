@@ -381,7 +381,6 @@ footer {
 .path {
   background-color: #def0ef;
   color: #009688;
-  width: 100%;
   padding-bottom: 10px;
   padding-left: 20px;
   overflow: hidden; }
@@ -552,31 +551,36 @@ footer {
   background-image: url("../images/sidesam.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 1000px;
+  background-size: 100% 100%;
   overflow: hidden;
   margin: 30px auto;
   text-align: center;
   padding-top: 20px; }
   .politikere .politikere-left {
     float: left;
-    padding-left: 15%; }
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 20%; }
   .politikere .politikere-right {
     float: right;
-    padding-right: 15%; }
+    padding-left: 10%;
+    padding-right: 15%;
+    width: 20%; }
   .politikere .politikere-politiker {
-    padding: 35px 0; }
+    padding: 25px 0; }
     .politikere .politikere-politiker a {
       text-decoration: none;
       color: black;
       font-size: 1.2em;
-      cursor: pointer; }
+      cursor: pointer;
+      width: 80%; }
       .politikere .politikere-politiker a h2 {
-        padding-top: 15px; }
+        padding-top: 10px; }
       .politikere .politikere-politiker a .politikere-politiker-picture-fun {
         display: none; }
       .politikere .politikere-politiker a .politikere-politiker-picture {
-        width: 80%;
-        padding-top: 80%;
+        width: 100%;
+        padding-top: 100%;
         background-size: cover;
         background-position: 50% 50%;
         border-radius: 100%;

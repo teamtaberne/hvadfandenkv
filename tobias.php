@@ -1,6 +1,3 @@
-<?php include 'include/analytics.php'; ?>
-<?php include 'include/searchfunction.php' ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,7 +20,7 @@
       <input type="submit" name="submit" value="Vælg" class="close">
     </div>
   </div>
-
+  <?php include 'include/searchfunction.php' ?>
   <?php include 'include/search.php' ?>
 
   <div class="path">
@@ -54,15 +51,15 @@
           <div class="hero-content-facts-left">
             <table>
               <tr>
-                <td><img src="images/ikoner/alder.png"></td>
+                <td><img src="images/ikoner/alder.png" alt="Kommunalvalg - Alder"></td>
                 <td>21 år</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/hjemby.png"></td>
+                <td><img src="images/ikoner/hjemby.png" alt="Kommunalvalg - Hjemby"></td>
                 <td>Nykøbing Falster</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/kommune.png"></td>
+                <td><img src="images/ikoner/kommune.png" alt="Kommunalvalg - Kommune"></td>
                 <td>Gentofte Kommune</td>
               </tr>
             </table>
@@ -70,15 +67,15 @@
           <div class="hero-content-facts-right">
             <table>
               <tr>
-                <td><img src="images/ikoner/sparetime.png"></td>
+                <td><img src="images/ikoner/sparetime.png" alt="Kommunalvalg - Fritid"></td>
                 <td>Leger klatretøsen</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/funfact.png"></td>
+                <td><img src="images/ikoner/funfact.png" alt="Kommunalvalg - Funfact"></td>
                 <td>Tobias elsker dølle-pøller. dank memes og siger aldrig nej til en øl med vennerne </td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/citat.png"></td>
+                <td><img src="images/ikoner/citat.png" alt="Kommunalvalg - Citat"></td>
                 <td>*Peger på Martin Krasnik* Det er ham som der æder lort</td>
               </tr>
             </table>
@@ -88,7 +85,7 @@
         <div class="hero-content-text">
           <table>
             <tr>
-              <td><img class="icon-large" src="images/ikoner/politik.png"></td>
+              <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik"></td>
               <td>Alle muslimer skal ud af Danmark. Rød politik er for homoseksuelle. Der skal lavere skatter på biler</td>
             </tr>
           </table>
@@ -103,6 +100,7 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
   </body>
 </html>

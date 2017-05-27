@@ -1,5 +1,3 @@
-<?php include 'include/analytics.php'; ?>
-<?php include 'include/searchfunction.php' ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,6 +21,7 @@
     </div>
   </div>
 
+  <?php include 'include/searchfunction.php' ?>
   <?php include 'include/search.php' ?>
 
   <div class="path">
@@ -54,15 +53,15 @@
           <div class="hero-content-facts-left">
             <table>
               <tr>
-                <td><img src="images/ikoner/alder.png"></td>
+                <td><img src="images/ikoner/alder.png" alt="Kommunalvalg - Alder"></td>
                 <td>24 år</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/hjemby.png"></td>
+                <td><img src="images/ikoner/hjemby.png" alt="Kommunalvalg - Hjemby"></td>
                 <td>Frederiksværk</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/kommune.png"></td>
+                <td><img src="images/ikoner/kommune.png" alt="Kommunalvalg - Kommune"></td>
                 <td>Gentofte Kommune</td>
               </tr>
             </table>
@@ -70,15 +69,15 @@
           <div class="hero-content-facts-right">
             <table>
               <tr>
-                <td><img src="images/ikoner/sparetime.png"></td>
+                <td><img src="images/ikoner/sparetime.png" alt="Kommunalvalg - Fritid"></td>
                 <td>Jeg maler</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/funfact.png"></td>
+                <td><img src="images/ikoner/funfact.png" alt="Kommunalvalg - Funfact"></td>
                 <td>Når jeg er fuld laver jeg ballede</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/citat.png"></td>
+                <td><img src="images/ikoner/citat.png" alt="Kommunalvalg - Citat"></td>
                 <td>Hoved og stat kommune (Andre kalder det Rudersdal kommune)</td>
               </tr>
             </table>
@@ -88,7 +87,7 @@
         <div class="hero-content-text">
           <table>
             <tr>
-              <td><img class="icon-large" src="images/ikoner/politik.png"></td>
+              <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik"></td>
               <td>Jeg synes dyr skal have det bedre. Er global opvarming så stort et issue? Folkeskolerne er lort - det skal der laves om på!</td>
             </tr>
           </table>
@@ -103,6 +102,7 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
   </body>
 </html>

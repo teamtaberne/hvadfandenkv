@@ -1,5 +1,3 @@
-<?php include 'include/analytics.php'; ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -45,6 +43,7 @@
 
   <?php include 'include/footer.php'; ?>
   <?php include 'include/jquary.php'; ?>
+  <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
   </body>
 </html>
