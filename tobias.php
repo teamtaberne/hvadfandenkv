@@ -26,6 +26,20 @@
 
   <?php include 'include/search.php' ?>
 
+  <div class="path">
+    <div class="path-stalk">
+      <a href="stalk.php">Stalk din politiker</a>
+      <p> > </p>
+    </div>
+    <div class="path-venstre">
+      <a href="venstre.php">Venstre</a>
+      <p> > </p>
+    </div>
+    <div class="path-politiker">
+      <a href="tobias.php">Tobias Heide</a>
+    </div>
+  </div>  
+
   <div class="politikerhero">
     <div class="hero-content">
       <div class="hero-content-left">

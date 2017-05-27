@@ -23,7 +23,17 @@
     </div>
   </div>
 
-<?php include 'include/search.php' ?>
+  <?php include 'include/search.php' ?>
+
+  <div class="path">
+    <div class="path-stalk">
+      <a href="stalk.php">Stalk din politiker</a>
+      <p> > </p>
+    </div>
+    <div class="path-venstre">
+      <a href="venstre.php">Venstre</a>
+    </div>
+  </div>
 
 
   <div class="venstrehero">
