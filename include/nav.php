@@ -4,24 +4,26 @@
   </div>
   <div class="navigation-right">
     <ul class="navbar">
-      <a href="index.php" class="<?= $active == 'index' ? 'active' : '' ?>"><li class="none">Seneste nyt</li></a>
-      <a href="stalk.php" class="<?= $active == 'stalk' ? 'active' : '' ?>"><li class="none">Stalk din politiker</li></a>
-      <a href="events.php" class="<?= $active == 'events' ? 'active' : '' ?>"><li class="none">Events</li></a>
-      <a href="debat.php" class="<?= $active == 'debat' ? 'active' : '' ?>"><li class="none">Debat</li></a>
-      <a href="kontakt.php" class="<?= $active == 'kontakt' ? 'active' : '' ?>"><li class="none">Kontakt Os</li></a>
-      <a href="#"><li class="none" id="skift">Skift kommune</li></a>
-      <a href="#"><li id="opens" class="open"><span>&#9776;</span></li></a>
+      <li class="none"><a href="index.php" class="<?= $active == 'index' ? 'active' : '' ?>">Seneste nyt</a></li>
+      <li class="none"><a href="stalk.php" class="<?= $active == 'stalk' ? 'active' : '' ?>">Stalk din politiker</a></li>
+      <li class="none"><a href="events.php" class="<?= $active == 'events' ? 'active' : '' ?>">Events</a></li>
+      <li class="none"><a href="debat.php" class="<?= $active == 'debat' ? 'active' : '' ?>">Debat</a></li>
+      <li class="none"><a href="kontakt.php" class="<?= $active == 'kontakt' ? 'active' : '' ?>">Kontakt Os</a></li>
+      <li class="none" id="skift"><a href="#">Skift kommune</a></li>
+      <li id="opens" class="open"><a href="#"><span>&#9776;</span></a></li>
     </ul>
   </div>
 </nav>
 
 <div class="sidenav" id="sidenav">
-  <a href="index.php"><li>Seneste nyt</li></a>
-  <a href="stalk.php"><li>Stalk din politiker</li></a>
-  <a href="events.php"><li>Events</li></a>
-  <a href="debat.php"><li>Debat</li></a>
-  <a href="kontakt.php"><li>Kontakt Os</li></a>
-  <a href="#"><li>Skift kommune</li></a>
+  <ul>
+  <li><a href="index.php">Seneste nyt</a></li>
+  <li><a href="stalk.php">Stalk din politiker</a></li>
+  <li><a href="events.php">Events</a></li>
+  <li><a href="debat.php">Debat</a></li>
+  <li><a href="kontakt.php">Kontakt Os</a></li>
+  <li><a href="#">Skift kommune</a></li>
+  </ul>
 </div>
 
 <script

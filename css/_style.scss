@@ -26,29 +26,29 @@ overflow: hidden;
 .navbar {
   display: inline-flex;
   font-size: 1.3em;
-  line-height: 30px;
+  line-height: 55px;
   float: right;
-  a {
-    text-decoration: none;
-  }
   ul {
     margin: 0;
     padding: 0;
   }
+  a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px 10px 15px 10px;
+  }
   li {
-  color: white;
-  margin: 10px;
-  padding: 10px;
-    }
-  a.active {
-    li {
+    a:active {
       color: $secondcolor;
     }
   }
-    li:hover {
+    li {
+      a:hover {
       color: $secondcolor;
       border-bottom: 1px solid $secondcolor;
     }
+  }
   .open {
     display: none;
   }
