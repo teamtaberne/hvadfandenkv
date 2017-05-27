@@ -64,7 +64,7 @@
 <div class="grid grid-pad">
   <div class="col-1-2 mobile-col-1-1">
     <section class="seneste_tekst">
-    <h2>Kan skoleelever i sjetteklasse, arbejde ved søen uden at ødelægge naturen?</h2>
+    <h1>Kan skoleelever i sjetteklasse, arbejde ved søen uden at ødelægge naturen?</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -76,7 +76,7 @@
       <img src="images/senestenyt3.jpg" alt="Kommunalvalg - Test dig selv">
       <h2>TEST DIG SELV</h2>
       <p>Hvilken lokalpolitiker ligner du mest?<br>Og her taler vi ikke om politiske holdninger - næn ej her
-        tænker vi på personligheden</p>
+        tænker vi på personligheden.</p>
     </section>
   </div>
   </div>
