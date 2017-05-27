@@ -96,12 +96,12 @@ if (isset($_POST['submit'])) {
 		}
 		$con->close();
 	?>
-	
+
 	<div class="debatform">
 		<form id="debatform" action="debat.php" method="POST">
-		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input">
+		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input" required data-validation="alphanumeric" data-validation-allowing=".,-!?""">
 
-		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input"></textarea>
+		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input" data-validation="alphanumeric" data-validation-allowing=".,-_?"""></textarea>
 		    <br>
 		    <input type="submit" name="submit" value="Send" class="button">
 		</form>

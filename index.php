@@ -28,7 +28,7 @@
       <img src="images/logo.png" alt="Kommunalvalg - Hvad fanden er kommunalvalg?">
       <div class="facts">
         <h1>SLADDER KASSEN</h1>
-        <p>At thai-kvinde-glade Ole Wedel blev valgt ind i Halsnæs Kommune i 2013</p>
+        <p>Vidste du at thai-kvinde-glade Ole Wedel blev valgt ind i Halsnæs Kommune i 2013</p>
       </div>
     </div>
     <div class="col-1-2 mobile-col-1-1">

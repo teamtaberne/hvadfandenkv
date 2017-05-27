@@ -26,17 +26,35 @@
 		<h1>KONTAKT OS HVIS DU HAR SPØRGSMÅL ELLER KOMMENTARER TIL SIDEN</h1>
 	</div>
 </div>
+<?php
+  if(isset($_POST['sendmail'])){
 
+	$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING) or die('missing name');
+	$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('missing e-mail');
+	$message = filter_input(INPUT_POST, 'kommentar', FILTER_SANITIZE_STRING) or die('missing message');
 
+	$to = 'teamtaberne@gmail.com';
+	$subject = 'Hvad Fanden er kommunalvalg';
+	$headers = "From: hvadfandenerkommunalvalg <'" .$email. "'>\r\n";
+	$headers .=  'Reply-To: ' . $email . "\r\n";
+	$headers .= "X-Mailer: PHP's mail() Function\r\n";
+	$headers .= "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-Type: text/html; charset=utf-8\r\n";
+
+	$authenticate = null;
+	$message= $name. ' Har kontaktet dig. Besked: ' ."\n\n". '  '.$message.' '."\n\n".' '.$name.'s Information: ' ."\n". 'email: '.$email;
+	$mailsent = mail($to, $subject, $message, $headers, $authenticate);
+}
+?>
 <div class="kontaktform">
-	<form>
-	    <input type="text" id="name" name="name" placeholder="Navn" class="input">
+	<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+	    <input type="text" id="name" name="name" placeholder="Navn" class="input" required data-validation="alphanumeric">
 
-	    <input type="email" id="email" name="email" placeholder="Email" class="input">
+	    <input type="email" id="email" name="email" placeholder="Email" class="input" data-validation="email" required>
 
-	    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox"></textarea>
+	    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox" required data-validation-help="Være venlig at give os mere information"></textarea>
 	    <br>
-	    <input type="submit" value="Send" class="button">
+	    <input type="submit" value="send" name="sendmail" class="button">
   	</form>
 </div>
 
