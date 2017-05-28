@@ -750,7 +750,8 @@ footer {
       width: 70%;
       margin: 10px auto; }
     .live_background .events_2 .event-content-right {
-      float: right; }
+      float: right;
+      text-align: right; }
     .live_background .events_2 .event-content-left {
       float: left; }
     .live_background .events_2 img {
