@@ -48,7 +48,7 @@
 ?>
 <div class="kontaktform">
 	<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-	    <input type="text" id="name" name="name" placeholder="Navn" class="input" required data-validation="alphanumeric">
+	    <input type="text" id="name" name="name" placeholder="Navn" class="input" required data-validation="letternumeric">
 
 	    <input type="email" id="email" name="email" placeholder="Email" class="input" data-validation="email" required>
 
