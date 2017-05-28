@@ -99,9 +99,9 @@ if (isset($_POST['submit'])) {
 
 	<div class="debatform">
 		<form id="debatform" action="debat.php" method="POST">
-		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input" required>
-
-		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input"></textarea>
+		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input" required data-validation="length" data-validation-length="min2">
+        <span id="maxlength">2500</span>
+		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input" required data-validation="length" data-validation-length="max2500"></textarea>
 		    <br>
 		    <input type="submit" name="submit" value="Send" class="button">
 		</form>
@@ -115,6 +115,7 @@ if (isset($_POST['submit'])) {
   <script>
     $.validate({
     });
+    $('#kommentar').restrictLength($('#maxlength'));
   </script>
   </body>
 </html>
