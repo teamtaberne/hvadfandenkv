@@ -81,8 +81,7 @@
   </div>
   </div>
 </div>
-<div class="clearfixsmall">
-</div>
+
 
 
   <?php include 'include/footer.php'; ?>

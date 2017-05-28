@@ -63,5 +63,9 @@
   <?php include 'include/jquary.php'; ?>
   <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
+  <script>
+    $.validate({
+    });
+  </script>
   </body>
 </html>

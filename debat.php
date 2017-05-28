@@ -99,9 +99,9 @@ if (isset($_POST['submit'])) {
 
 	<div class="debatform">
 		<form id="debatform" action="debat.php" method="POST">
-		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input" required data-validation="alphanumeric" data-validation-allowing=".,-!?""">
+		    <input type="text" id="headline" name="headline" placeholder="Overskrift" class="input" required data-validation="alphanumeric" data-validation-allowing="!#%/()',.-_><">
 
-		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input" data-validation="alphanumeric" data-validation-allowing=".,-_?"""></textarea>
+		    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input" data-validation="alphanumeric" data-validation-allowing="!#%/()',.-_><"""></textarea>
 		    <br>
 		    <input type="submit" name="submit" value="Send" class="button">
 		</form>
@@ -112,5 +112,9 @@ if (isset($_POST['submit'])) {
   <?php include 'include/jquary.php'; ?>
   <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
+  <script>
+    $.validate({
+    });
+  </script>
   </body>
 </html>
