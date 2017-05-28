@@ -560,7 +560,8 @@ footer {
 
 .maerkesager td {
   padding: 10px;
-  vertical-align: middle; }
+  vertical-align: middle;
+  text-align: left; }
 
 .politikere {
   background-image: url("../images/sidesam.jpg");

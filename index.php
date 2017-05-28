@@ -66,7 +66,7 @@
     <section class="seneste_tekst">
     <h1>Hvad er kommunalvalget, og Hvem kan stemme?</h1>
     <p>Kommunalvalget i Danmark afholdes hvert fjerde år af medlemmerne af kommunalbestyrelser,  Kommunalbestyrelser benævnes også i nogle kommuner byråd, og Københavns kommune vælger medlemmer af Borgerrepræsentationen. Afstemningen ved valgene er frie og hemmelige.
-     Det sidste kommunalvalg var i 2013 for de 98 danske kommuner. Det næste Valg den 21. november 2017.</p>
+     Det sidste kommunalvalg var i 2013 for de 98 danske kommuner. Det næste Valg den 21. november 2017. </p>
     </section>
   </div>
   <div class="col-1-2 mobile-col-1-1">
