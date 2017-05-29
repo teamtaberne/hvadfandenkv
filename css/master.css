@@ -269,6 +269,9 @@ body {
     height: 75px;
     z-index: 1;
     margin-left: 50px; }
+    @media screen and (max-width: 500px) {
+      .navigation .navlogo {
+        margin-left: 0px; } }
   .navigation .navbar {
     display: inline-flex;
     font-size: 1.3em;
