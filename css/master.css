@@ -270,6 +270,8 @@ body {
     z-index: 1;
     margin-left: 50px; }
   .navigation .navbar {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: 1.3em;
     line-height: 55px;
@@ -856,8 +858,14 @@ textarea {
     text-align: center;
     font-size: 2em; }
   .debat .debat-post {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     box-sizing: border-box;
     background-color: white;
