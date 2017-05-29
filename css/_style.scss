@@ -95,6 +95,21 @@ footer {
     color: white;
     line-height: 100px;
     text-align: center;
+    padding: 0px 5px 0px 5px;
+  }
+  img {
+    width: 2%;
+    vertical-align: middle;
+    padding: 0px 5px 0px 5px;
+    float: right;
+    margin-top: 40px;
+    @media screen and (max-width: 1130px) {
+    width: 4%;
+    }
+    @media screen and (max-width: 500px) {
+    width: 7%;
+    margin-top: 38px;
+    }
   }
 }
 // END OF FOOTER
