@@ -54,7 +54,7 @@
 
 	    <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar" class="input textbox" required data-validation-help="Være venlig at give os mere information"></textarea>
 	    <br>
-	    <input type="submit" value="send" name="sendmail" class="button">
+	    <input type="submit" value="Send" name="sendmail" class="button">
   	</form>
 </div>
 

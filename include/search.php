@@ -4,7 +4,7 @@
           <input type="text" name="search"/>
         </div>
         <div class="search-btn">
-          <input type="submit" value="SØG" />
+          <input type="submit" value="Søg" />
         </div>
       </form>
 </div>
