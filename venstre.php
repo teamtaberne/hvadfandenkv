@@ -47,15 +47,15 @@
       <div class="maerkesager-items-left">
         <table>
           <tr>
-            <td><img src="images/ikoner/ungdom.png" alt="Kommunalvalg - Ungdom"></td>
+            <td><img src="images/ikoner/ungdom.png" alt="Kommunalvalg - Ungdom" title="Ungdom"></td>
             <td>SU'en skal ned</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/beskæftigelse.png" alt="Kommunalvalg - Beskæftigelse"></td>
+            <td><img src="images/ikoner/beskæftigelse.png" alt="Kommunalvalg - Beskæftigelse" title="Beskæftigelse"></td>
             <td>Fuck kontantloftet</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/miljø.png" alt="Kommunalvalg - Miljø"></td>
+            <td><img src="images/ikoner/miljø.png" alt="Kommunalvalg - Miljø" title="Miljø"></td>
             <td>Vi er aaaaalt for grønne</td>
           </tr>
         </table>
@@ -63,15 +63,15 @@
       <div class="maerkesager-items-right">
         <table>
           <tr>
-            <td><img src="images/ikoner/sundhed2.png" alt="Kommunalvalg - Sundhed"></td>
+            <td><img src="images/ikoner/sundhed2.png" alt="Kommunalvalg - Sundhed" title="Sundhed"></td>
             <td>Behøver vi så mange hospitaler?</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/økonomi.png" alt="Kommunalvalg - Økonomi"></td>
+            <td><img src="images/ikoner/økonomi.png" alt="Kommunalvalg - Økonomi" title="Økonomi"></td>
             <td>Lavere skatter!</td>
           </tr>
           <tr>
-            <td><img src="images/ikoner/kultur.png" alt="Kommunalvalg - Kultur"></td>
+            <td><img src="images/ikoner/kultur.png" alt="Kommunalvalg - Kultur" title="Kultur"></td>
             <td>Vi gider heller ikke betale for licens!</td>
           </tr>
         </table>

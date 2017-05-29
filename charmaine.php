@@ -36,7 +36,7 @@
     <div class="path-politiker">
       <a href="charmaine.php">Charmaine McLean</a>
     </div>
-  </div>  
+  </div>
 
 
   <div class="politikerhero">
@@ -53,15 +53,15 @@
           <div class="hero-content-facts-left">
             <table>
               <tr>
-                <td><img src="images/ikoner/alder.png" alt="Kommunalvalg - Alder"></td>
+                <td><img src="images/ikoner/alder.png" alt="Kommunalvalg - Alder" title="Alder"></td>
                 <td>24 år</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/hjemby.png" alt="Kommunalvalg - Hjemby"></td>
+                <td><img src="images/ikoner/hjemby.png" alt="Kommunalvalg - Hjemby" title="Hjemby"></td>
                 <td>Frederiksværk</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/kommune.png" alt="Kommunalvalg - Kommune"></td>
+                <td><img src="images/ikoner/kommune.png" alt="Kommunalvalg - Kommune" title="Kommune"></td>
                 <td>Gentofte Kommune</td>
               </tr>
             </table>
@@ -69,15 +69,15 @@
           <div class="hero-content-facts-right">
             <table>
               <tr>
-                <td><img src="images/ikoner/sparetime.png" alt="Kommunalvalg - Fritid"></td>
+                <td><img src="images/ikoner/sparetime.png" alt="Kommunalvalg - Fritid" title="Fritid"></td>
                 <td>Jeg maler</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/funfact.png" alt="Kommunalvalg - Funfact"></td>
+                <td><img src="images/ikoner/funfact.png" alt="Kommunalvalg - Funfact" title="Funfact"></td>
                 <td>Når jeg er fuld laver jeg ballede</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/citat.png" alt="Kommunalvalg - Citat"></td>
+                <td><img src="images/ikoner/citat.png" alt="Kommunalvalg - Citat" title="Citat"></td>
                 <td>Hoved og stat kommune (Andre kalder det Rudersdal kommune)</td>
               </tr>
             </table>
@@ -87,7 +87,7 @@
         <div class="hero-content-text">
           <table>
             <tr>
-              <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik"></td>
+              <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik" title="Politiske holdninger"></td>
               <td>Jeg synes dyr skal have det bedre. Er global opvarming så stort et issue? Folkeskolerne er lort - det skal der laves om på!</td>
             </tr>
           </table>

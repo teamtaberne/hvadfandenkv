@@ -51,15 +51,15 @@
           <div class="hero-content-facts-left">
             <table>
               <tr>
-                <td><img src="images/ikoner/alder.png" alt="Kommunalvalg - Alder"></td>
+                <td><img src="images/ikoner/alder.png" alt="Kommunalvalg - Alder" title="Alder"></td>
                 <td>21 år</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/hjemby.png" alt="Kommunalvalg - Hjemby"></td>
+                <td><img src="images/ikoner/hjemby.png" alt="Kommunalvalg - Hjemby" title="Hjemby"></td>
                 <td>Nykøbing Falster</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/kommune.png" alt="Kommunalvalg - Kommune"></td>
+                <td><img src="images/ikoner/kommune.png" alt="Kommunalvalg - Kommune" title="Kommune"></td>
                 <td>Gentofte Kommune</td>
               </tr>
             </table>
@@ -67,15 +67,15 @@
           <div class="hero-content-facts-right">
             <table>
               <tr>
-                <td><img src="images/ikoner/sparetime.png" alt="Kommunalvalg - Fritid"></td>
+                <td><img src="images/ikoner/sparetime.png" alt="Kommunalvalg - Fritid" title="Fritid"></td>
                 <td>Leger klatretøsen</td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/funfact.png" alt="Kommunalvalg - Funfact"></td>
+                <td><img src="images/ikoner/funfact.png" alt="Kommunalvalg - Funfact" title="Funfact"></td>
                 <td>Tobias elsker dølle-pøller. dank memes og siger aldrig nej til en øl med vennerne </td>
               </tr>
               <tr>
-                <td><img src="images/ikoner/citat.png" alt="Kommunalvalg - Citat"></td>
+                <td><img src="images/ikoner/citat.png" alt="Kommunalvalg - Citat" title="Citat"></td>
                 <td>*Peger på Martin Krasnik* Det er ham som der æder lort</td>
               </tr>
             </table>
@@ -85,7 +85,7 @@
         <div class="hero-content-text">
           <table>
             <tr>
-              <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik"></td>
+              <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik" title="Politiske holdninger"></td>
               <td>Der skal lavere skatter på biler</td>
             </tr>
           </table>
