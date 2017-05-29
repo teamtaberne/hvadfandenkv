@@ -48,7 +48,7 @@
 ?>
 <div class="kontaktform">
 	<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-	    <input type="text" id="name" name="name" placeholder="Navn" class="input" required data-validation="alphanumeric">
+	    <input type="text" id="name" name="name" placeholder="Navn" class="input" required data-validation="letternumeric" data-validation-allowing=" " data-validation-help="Kun bogstaver" />
 
 	    <input type="email" id="email" name="email" placeholder="Email" class="input" data-validation="email" required>
 
@@ -63,5 +63,10 @@
   <?php include 'include/jquary.php'; ?>
   <?php include 'include/analytics.php'; ?>
   <script src="script.js"></script>
+  <script>
+  $.validate({
+    form : '#name, #email, #kommentar'
+  });
+  </script>
   </body>
 </html>

@@ -35,7 +35,7 @@
     <div class="path-politiker">
       <a href="tobias.php">Tobias Heide</a>
     </div>
-  </div>  
+  </div>
 
   <div class="politikerhero">
     <div class="hero-content">
@@ -86,7 +86,7 @@
           <table>
             <tr>
               <td><img class="icon-large" src="images/ikoner/politik.png" alt="Kommunalvalg - Politik"></td>
-              <td>Alle muslimer skal ud af Danmark. Rød politik er for homoseksuelle. Der skal lavere skatter på biler</td>
+              <td>Der skal lavere skatter på biler</td>
             </tr>
           </table>
         </div>

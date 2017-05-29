@@ -64,11 +64,9 @@
 <div class="grid grid-pad">
   <div class="col-1-2 mobile-col-1-1">
     <section class="seneste_tekst">
-    <h1>Kan skoleelever i sjetteklasse, arbejde ved søen uden at ødelægge naturen?</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h1>Hvad er kommunalvalget, og Hvem kan stemme?</h1>
+    <p>Kommunalvalget i Danmark afholdes hvert fjerde år af medlemmerne af kommunalbestyrelser,  Kommunalbestyrelser benævnes også i nogle kommuner byråd, og Københavns kommune vælger medlemmer af Borgerrepræsentationen. Afstemningen ved valgene er frie og hemmelige.
+     Det sidste kommunalvalg var i 2013 for de 98 danske kommuner. Det næste Valg den 21. november 2017. </p>
     </section>
   </div>
   <div class="col-1-2 mobile-col-1-1">
@@ -81,8 +79,7 @@
   </div>
   </div>
 </div>
-<div class="clearfixsmall">
-</div>
+
 
 
   <?php include 'include/footer.php'; ?>

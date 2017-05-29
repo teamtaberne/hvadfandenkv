@@ -13,7 +13,27 @@ close.onclick = function() {
 }
 // Closes the box, if anything else but the box is clicked
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == box) {
+        box.style.display = "none";
+    }
+}
+
+
+var box = document.getElementById('skiftkommune');
+var btn = document.getElementById("skifte");
+var close = document.getElementsByClassName("close")[0];
+
+// Opens the box
+btn.onclick = function() {
+    box.style.display = "block";
+}
+// Closes the box, when button is clicked
+close.onclick = function() {
+    box.style.display = "none";
+}
+// Closes the box, if anything else but the box is clicked
+window.onclick = function(event) {
+    if (event.target == box) {
         box.style.display = "none";
     }
 }

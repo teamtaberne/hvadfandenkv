@@ -22,7 +22,7 @@
   <li><a href="events.php" class="<?= $active == 'events' ? 'active' : '' ?>">Events</a></li>
   <li><a href="debat.php" class="<?= $active == 'debat' ? 'active' : '' ?>">Debat</a></li>
   <li><a href="kontakt.php" class="<?= $active == 'kontakt' ? 'active' : '' ?>">Kontakt Os</a></li>
-  <li><a href="#">Skift kommune</a></li>
+  <li id="skifte"><a href="#">Skift kommune</a></li>
   </ul>
 </div>
 

@@ -330,10 +330,10 @@ footer {
   width: 100%;
   height: 300px; }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 500px) {
   .clearfixtablet {
     width: 100%;
-    height: 300px; } }
+    height: 100px; } }
 
 .clearfixsmall {
   width: 100%;
@@ -409,11 +409,13 @@ footer {
 
 .sectionhero_1 {
   width: 100%;
-  height: 800px;
   background-image: url("../images/senestenyt.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  @media screen and (max-width: 770px) {
+    .sectionhero_1 {
+      height: 100%; } }
   .sectionhero_1 img {
     margin: 20px 20px 20px 0px;
     width: 80%; }
@@ -437,11 +439,17 @@ footer {
       color: white;
       text-align: center;
       font-size: 1.5em; }
+      @media screen and (max-width: 770px) {
+        .sectionhero_1 .facts h1 {
+          margin-top: 10px; } }
     .sectionhero_1 .facts p {
       text-align: center;
       font-size: 1.2em;
       margin-top: 30px;
       color: white; }
+      @media screen and (max-width: 770px) {
+        .sectionhero_1 .facts p {
+          margin-top: 5px; } }
   .sectionhero_1 .maaling {
     margin: 50px; }
     .sectionhero_1 .maaling h2 {
@@ -450,11 +458,11 @@ footer {
     .sectionhero_1 .maaling img {
       margin: 20px 0px 20px 20px; }
     .sectionhero_1 .maaling .meningsmaaling {
-      text-align: justify; }
+      text-align: justify;
+      margin-bottom: 15px; }
 
 .sectionhero_1_1 {
   width: 100%;
-  height: 800px;
   background-image: url("../images/senestenyt2.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -482,8 +490,9 @@ footer {
   margin-top: 10px; }
 
 .sektion_2billede p {
-  margin-top: 10px;
-  line-height: 20px; }
+  margin-top: 0px;
+  line-height: 20px;
+  margin-bottom: 30px; }
 
 .sectionhero_2 {
   width: 100%;
@@ -553,7 +562,8 @@ footer {
 
 .maerkesager td {
   padding: 10px;
-  vertical-align: middle; }
+  vertical-align: middle;
+  text-align: left; }
 
 .politikere {
   background-image: url("../images/sidesam.jpg");
@@ -742,7 +752,8 @@ footer {
       width: 70%;
       margin: 10px auto; }
     .live_background .events_2 .event-content-right {
-      float: right; }
+      float: right;
+      text-align: right; }
     .live_background .events_2 .event-content-left {
       float: left; }
     .live_background .events_2 img {
@@ -776,9 +787,10 @@ footer {
 
 .input {
   margin: 15px auto;
-  width: 100%;
+  width: 98%;
   resize: vertical;
   padding: 15px;
+  padding-right: 0px;
   border-radius: 5px;
   border: 1px solid #009688; }
 
@@ -851,6 +863,10 @@ textarea {
         width: 80%; } }
     .debat .debatform .input {
       border: 1px solid #ccc; }
+    .debat .debatform span {
+      opacity: 0.75;
+      float: left;
+      padding-left: 5px; }
   .debat h1 {
     width: 70%;
     color: black;
@@ -874,7 +890,8 @@ textarea {
     padding: 20px;
     width: 50%;
     border-radius: 15px;
-    overflow: hidden; }
+    overflow: hidden;
+    word-wrap: break-word; }
     @media screen and (max-width: 770px) {
       .debat .debat-post {
         width: 80%; } }
@@ -979,10 +996,10 @@ textarea {
     width: 90%;
     height: 320px; }
   .sektion_2billede h2 {
-    margin: 10px 30px 30px 30px; }
+    margin: 10px 30px 10px 30px; }
   .sektion_2billede p {
     line-height: 20px;
-    margin: 10px 30px 30px 30px; }
+    margin: 0px 30px 30px 30px; }
   .sectionhero_2_1 .profile .politiktekst {
     margin-top: 50px; }
     .sectionhero_2_1 .profile .politiktekst .icons_1 img {
