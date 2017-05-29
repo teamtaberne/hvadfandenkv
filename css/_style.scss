@@ -524,6 +524,10 @@ footer {
     .hero-content-left{
       float: left;
       width: 25%;
+      @media screen and (min-width: 401px) and (max-width: 550px) {
+        width: 37%;
+        padding: 5px 5px 5px 50px;
+      }
       @media screen and (max-width: 400px) {
         float: none;
         width: 80%;
@@ -534,6 +538,9 @@ footer {
       margin-left: 60px;
       float: left;
       width: 65%;
+      @media screen and (max-width: 500px) {
+        width: 75%;
+      }
       .hero-content-name {
         h1 {
           font-size: 2em;
