@@ -322,7 +322,21 @@ footer {
   footer p {
     color: white;
     line-height: 100px;
-    text-align: center; }
+    text-align: center;
+    padding: 0px 5px 0px 5px; }
+  footer img {
+    width: 2%;
+    vertical-align: middle;
+    padding: 0px 5px 0px 5px;
+    float: right;
+    margin-top: 40px; }
+    @media screen and (max-width: 1130px) {
+      footer img {
+        width: 4%; } }
+    @media screen and (max-width: 500px) {
+      footer img {
+        width: 7%;
+        margin-top: 38px; } }
 
 .clearfix {
   width: 100%;
