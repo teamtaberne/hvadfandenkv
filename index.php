@@ -27,7 +27,7 @@
     <div class="col-1-2 mobile-col-1-1">
       <img src="images/logo.png" alt="Kommunalvalg - Hvad fanden er kommunalvalg?">
       <div class="facts">
-        <h1>SLADDER KASSEN</h1>
+        <h2>SLADDER KASSEN</h2>
         <p>Vidste du at thai-kvinde-glade Ole Wedel blev valgt ind i Halsnæs Kommune i 2013</p>
       </div>
     </div>
@@ -37,7 +37,7 @@
             <img src="images/mening1x.png" alt="Kommunalvalg - Meningsmåling">
           </div>
           <div class="col-1-2">
-            <h2>EL mener at der er for få hænder i børnehaven - hvad mener du?</h2>
+            <h3>EL mener at der er for få hænder i børnehaven - hvad mener du?</h3>
           </div>
           <div class="col-1-2">
         <form class="meningsmaaling" action="index.html" method="post">
@@ -64,7 +64,7 @@
 <div class="grid grid-pad">
   <div class="col-1-2 mobile-col-1-1">
     <section class="seneste_tekst">
-    <h1>Hvad er kommunalvalget, og Hvem kan stemme?</h1>
+    <h2>Hvad er kommunalvalget, og Hvem kan stemme?</h2>
     <p>Kommunalvalget i Danmark afholdes hvert fjerde år af medlemmerne af kommunalbestyrelser,  Kommunalbestyrelser benævnes også i nogle kommuner byråd, og Københavns kommune vælger medlemmer af Borgerrepræsentationen. Afstemningen ved valgene er frie og hemmelige.
      Det sidste kommunalvalg var i 2013 for de 98 danske kommuner. Det næste Valg den 21. november 2017. </p>
     </section>
@@ -72,7 +72,7 @@
   <div class="col-1-2 mobile-col-1-1">
     <section class="sektion_2billede">
       <img src="images/senestenyt3.jpg" alt="Kommunalvalg - Test dig selv">
-      <h2>TEST DIG SELV</h2>
+      <h3>TEST DIG SELV</h3>
       <p>Hvilken lokalpolitiker ligner du mest?<br>Og her taler vi ikke om politiske holdninger - næn ej her
         tænker vi på personligheden.</p>
     </section>

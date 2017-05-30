@@ -274,7 +274,7 @@ body {
         margin-left: 0px; } }
   .navigation .navbar {
     display: inline-flex;
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 55px;
     float: right;
     margin-right: 50px; }
@@ -449,13 +449,13 @@ footer {
     @media screen and (max-width: 770px) {
       .sectionhero_1 .facts {
         height: 100px; } }
-    .sectionhero_1 .facts h1 {
+    .sectionhero_1 .facts h2 {
       margin-top: 20px;
       color: white;
       text-align: center;
       font-size: 1.5em; }
       @media screen and (max-width: 770px) {
-        .sectionhero_1 .facts h1 {
+        .sectionhero_1 .facts h2 {
           margin-top: 10px; } }
     .sectionhero_1 .facts p {
       text-align: center;
@@ -467,7 +467,7 @@ footer {
           margin-top: 5px; } }
   .sectionhero_1 .maaling {
     margin: 50px; }
-    .sectionhero_1 .maaling h2 {
+    .sectionhero_1 .maaling h3 {
       text-align: center;
       font-size: 1.2em; }
     .sectionhero_1 .maaling img {
@@ -486,9 +486,10 @@ footer {
 .seneste_tekst {
   color: white;
   margin: 30px; }
-  .seneste_tekst h1 {
+  .seneste_tekst h2 {
     font-size: 1.5em; }
   .seneste_tekst p {
+    font-size: 1em;
     line-height: 20px;
     margin-top: 10px; }
 
@@ -500,14 +501,15 @@ footer {
     .sektion_2billede img {
       margin-top: 20px; } }
 
-.sektion_2billede h2 {
+.sektion_2billede h3 {
   font-size: 1.2em;
   margin-top: 10px; }
 
 .sektion_2billede p {
   margin-top: 0px;
   line-height: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 1em; }
 
 .sectionhero_2 {
   width: 100%;
@@ -607,8 +609,9 @@ footer {
       font-size: 1.2em;
       cursor: pointer;
       width: 80%; }
-      .politikere .politikere-politiker a h2 {
-        padding-top: 10px; }
+      .politikere .politikere-politiker a h3 {
+        padding-top: 10px;
+        font-size: 1.2em; }
       .politikere .politikere-politiker a .politikere-politiker-picture-fun {
         display: none; }
       .politikere .politikere-politiker a .politikere-politiker-picture {
@@ -751,9 +754,12 @@ footer {
 
 .livestream .live_3 {
   float: left;
-  font-size: 1.5em;
   line-height: 50px;
   margin-top: 190px; }
+  .livestream .live_3 h2 {
+    font-size: 1.5em; }
+  .livestream .live_3 h3 {
+    font-size: 1.2em; }
   @media screen and (max-width: 770px) {
     .livestream .live_3 {
       margin-top: 0; } }

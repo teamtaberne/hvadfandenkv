@@ -4,6 +4,10 @@ $secondcolor: #FF9100; // ORANGE
 $hovercolor: #00695C; // DARK TEAL
 $backgroundcolor: #def0ef; // LIGHT TEAL
 $font: 'Roboto', Arial, Helvetica, sans-serif;
+$h1: 2em;
+$h2: 1.5em;
+$h3: 1.2em;
+$p: 1em;
 body {
 font-family: $font;
 }
@@ -252,7 +256,7 @@ footer {
     @media screen and (max-width: 770px) {
       height: 100px;
     }
-    h1 {
+    h2 {
       margin-top: 20px;
       color: white;
       text-align: center;
@@ -273,9 +277,9 @@ footer {
   }
   .maaling {
     margin: 50px;
-    h2 {
+    h3 {
       text-align: center;
-      font-size: 1.2em;
+      font-size: $h3;
     }
     img {
       margin: 20px 0px 20px 20px;
@@ -298,10 +302,11 @@ footer {
 .seneste_tekst {
   color: white;
   margin: 30px;
-  h1 {
-    font-size: 1.5em;
+  h2 {
+    font-size: $h2;
   }
   p {
+    font-size: $p;
     line-height: 20px;
     margin-top: 10px;
   }
@@ -315,14 +320,15 @@ footer {
     margin-top: 20px;
   }
   }
-  h2 {
-    font-size: 1.2em;
+  h3 {
+    font-size: $h3;
     margin-top: 10px;
   }
   p {
     margin-top: 0px;
     line-height: 20px;
     margin-bottom: 30px;
+    font-size: $p;
   }
 }
 
@@ -368,14 +374,14 @@ footer {
       color: black;
       margin: 0 auto;
       text-align: center;
-      font-size: 2em;
+      font-size: $h1;
     }
   }
 
 // Mærkesager
 .maerkesager {
   h1 {
-    font-size: 2em;
+    font-size: $h1;
     margin: 0 auto;
     text-align: center;
   }
@@ -449,8 +455,9 @@ footer {
       font-size: 1.2em;
       cursor: pointer;
       width: 80%;
-      h2 {
+      h3 {
         padding-top: 10px;
+        font-size: $h3;
       }
       .politikere-politiker-picture-fun {
         display: none;
@@ -547,7 +554,7 @@ footer {
       }
       .hero-content-name {
         h1 {
-          font-size: 2em;
+          font-size: $h1;
           padding-bottom: 20px;
         }
       }
@@ -629,7 +636,7 @@ $eventimg: 70%;
   .live_1 {
     h1 {
       color: white;
-      font-size: 2em;
+      font-size: $h1;
       margin: 20px;
       padding: 20px;
       text-align: center;
@@ -645,9 +652,14 @@ $eventimg: 70%;
   }
   .live_3 {
     float: left;
-    font-size: 1.5em;
     line-height: 50px;
     margin-top: 190px;
+    h2 {
+        font-size: $h2;
+    }
+    h3 {
+      font-size: $h3;
+    }
     @media screen and (max-width: 770px) {
       margin-top: 0;
     }
@@ -658,7 +670,7 @@ $eventimg: 70%;
   .events_1 {
     h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: $h1;
     margin-top: 100px;
     }
     img {

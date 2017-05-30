@@ -30,8 +30,8 @@
           <img src="images/livestream.jpg" alt="Kommunalvalg - Livestream">
         </div>
         <div class="col-1-2 live_3 mobile-col-1-1">
-          <h1>LIVE: Venstre holder pressemøde</h1>
-          <p>BRØDTEKST</p>
+          <h2>LIVE: Venstre holder pressemøde</h2>
+          <h3>Klik på livestreamen for at se med!</h3>
         </div>
       </div>
     </div>

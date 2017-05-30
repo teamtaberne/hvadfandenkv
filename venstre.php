@@ -87,14 +87,14 @@
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/charmainee.JPG)">
           </div>
-          <h2> Charmaine McLean</h2>
+          <h3> Charmaine McLean</h3>
         </a>
       </div>
       <div class="politikere-politiker">
         <a href="#">
           <div class="politikere-politiker-picture" style="background-image: url(images/pia.jpg)">
           </div>
-          <h2> Pia Loft </h2>
+          <h3> Pia Loft </h3>
         </a>
       </div>
       <div class="politikere-politiker">
@@ -103,7 +103,7 @@
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/camillae.JPG)">
           </div>
-          <h2> Camilla Voss </h2>
+          <h3> Camilla Voss </h3>
         </a>
       </div>
     </div>
@@ -112,7 +112,7 @@
         <a href="#">
           <div class="politikere-politiker-picture" style="background-image: url(images/scm.jpg)">
           </div>
-          <h2> Søren Michaelsen </h2>
+          <h3> Søren Michaelsen </h>
         </a>
       </div>
       <div class="politikere-politiker">
@@ -121,14 +121,14 @@
           </div>
           <div class="politikere-politiker-picture politikere-politiker-picture-fun" style="background-image: url(images/tobiase.JPG)">
           </div>
-          <h2> Tobias Heide </h2>
+          <h3> Tobias Heide </h3>
         </a>
       </div>
       <div class="politikere-politiker">
         <a href="#">
           <div class="politikere-politiker-picture" style="background-image: url(images/louise.jpeg)">
           </div>
-          <h2> Louise Husted Feilberg </h2>
+          <h3> Louise Husted Feilberg </h3>
         </a>
       </div>
     </div>
