@@ -269,6 +269,9 @@ body {
     height: 75px;
     z-index: 1;
     margin-left: 50px; }
+    @media screen and (max-width: 500px) {
+      .navigation .navlogo {
+        margin-left: 0px; } }
   .navigation .navbar {
     display: inline-flex;
     font-size: 1.3em;
@@ -664,6 +667,10 @@ footer {
     .politikerhero .hero-content .hero-content-left {
       float: left;
       width: 25%; }
+      @media screen and (min-width: 401px) and (max-width: 550px) {
+        .politikerhero .hero-content .hero-content-left {
+          width: 37%;
+          padding: 5px 5px 5px 50px; } }
       @media screen and (max-width: 400px) {
         .politikerhero .hero-content .hero-content-left {
           float: none;
@@ -673,6 +680,9 @@ footer {
       margin-left: 60px;
       float: left;
       width: 65%; }
+      @media screen and (max-width: 500px) {
+        .politikerhero .hero-content .hero-content-right {
+          width: 75%; } }
       .politikerhero .hero-content .hero-content-right .hero-content-name h1 {
         font-size: 2em;
         padding-bottom: 20px; }

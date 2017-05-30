@@ -50,9 +50,6 @@
     <div class="grid grid-pad pollogos_2">
   </div>
   </div>
-  <div class="clearfixlarge">
-
-  </div>
 
 
   <?php include 'include/footer.php'; ?>
