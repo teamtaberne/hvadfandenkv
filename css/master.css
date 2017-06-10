@@ -423,14 +423,21 @@ footer {
       float: right; }
 
 .sectionhero_1 {
-  width: 100%;
-  background-image: url("../images/senestenyt.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  width: 100%; }
+  .sectionhero_1 video {
+    position: absolute;
+    z-index: -100;
+    left: 0; }
   @media screen and (max-width: 770px) {
     .sectionhero_1 {
-      height: 100%; } }
+      height: 100%;
+      width: 100%;
+      background-image: url("../images/senestenyt.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+      .sectionhero_1 video {
+        dispay: none; } }
   .sectionhero_1 img {
     margin: 20px 20px 20px 0px;
     width: 80%; }

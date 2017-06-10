@@ -230,12 +230,21 @@ footer {
 // SENESTE NYT
 .sectionhero_1 {
   width: 100%;
-  background-image: url("../images/senestenyt.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  video {
+    position: absolute;
+    z-index: -100;
+    left: 0;
+  }
   @media screen and (max-width: 770px) {
     height: 100%;
+    width: 100%;
+    background-image: url("../images/senestenyt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    video {
+      dispay: none;
+    }
   }
   img {
     margin: 20px 20px 20px 0px;

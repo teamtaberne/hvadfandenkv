@@ -23,6 +23,9 @@
 </div>
 
 <div class="sectionhero_1">
+  <video autoplay width="1920px" height="700px" loop>
+    <source src="images/bgvid.webm" type="video/webm">
+  </video>
   <div class="grid grid-pad">
     <div class="col-1-2 mobile-col-1-1">
       <img src="images/logo.png" alt="Kommunalvalg - Hvad fanden er kommunalvalg?">
